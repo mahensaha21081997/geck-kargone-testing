@@ -1,0 +1,151 @@
+[
+  {
+    "url": "https://kargone-admin.appening.xyz/dealer",
+    "description": "1. click the first button from left side in the navbar right corner\\n2. then go to \\\"Lead Management\\\" in sidebar (second item in the menu items)\\n3. locate the zipcode field and click edit icon for that and clear existing value in the field and write \\\"33320\\\" and click tick mark beside that field to save the new zipcode\\n7. now click the \\\"save changes\\\" button in the bottom of the page to save the form",
+    "createdAt": 1782155962824,
+    "testname": "zipcode, select make changes",
+    "projectName": "Lead Management",
+    "useSavedLoginState": true,
+    "id": "TEST-9ed12",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/dealer."
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Click the first button from the left side in the navbar's right corner."
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Select the 'Lead Management' option in the sidebar by clicking the second menu item."
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Click the edit icon adjacent to the zipcode field to enable editing."
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Clear the existing value in the zipcode field and enter '33320'."
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Click the tick mark beside the zipcode field to save the updated value."
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Scroll to the bottom of the page and click the 'Save Changes' button to update the form."
+        },
+        {
+          "stepNumber": 8,
+          "stepDescription": "Take a screenshot of the completed task for verification."
+        }
+      ],
+      "stepsSummary": "Navigate navbar, update zipcode, and save form"
+    },
+    "generatedCodeAt": 1780577428949,
+    "generatedCodeMode": "playwright"
+  },
+  {
+    "url": "https://kargone-admin.appening.xyz/dealer",
+    "description": "1. click the first button in the navbar from left side in the right side\n2. click the \"Lead Management\" menu item in the sidebar rendered in the layout\n3. locate the \"select make\" field and deselect \"All brands\" and select the first five brands \n4. click the \"save changes\" button to save the changes",
+    "createdAt": 1780577971748,
+    "testname": "change select make",
+    "projectName": "Lead Management",
+    "useSavedLoginState": true,
+    "id": "TEST-9cbd7",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/dealer",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Click the first button located on the left side of the navbar",
+          "generatedCode": [
+            {
+              "subStep": "Click the first button on the left side of the navbar.",
+              "code": "Click the first button on the left side of the navbar."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Click the 'Lead Management' menu item in the sidebar of the layout",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Lead management” link in the sidebar.",
+              "code": "Click the “Lead management” link in the sidebar."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Locate the 'select make' field and deselect the 'All brands' option",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Select Make” radio option.",
+              "code": "Click the “Select Make” radio option."
+            },
+            {
+              "subStep": "Click the “All brands” checkbox to deselect it.",
+              "code": "Click the “All brands” checkbox to deselect it."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Select the first five brands from the options in the 'select make' field",
+          "generatedCode": [
+            {
+              "subStep": "Click the checkbox for the Honda brand.",
+              "code": "Click the checkbox for the Honda brand."
+            },
+            {
+              "subStep": "Click the checkbox for the Toyota brand.",
+              "code": "Click the checkbox for the Toyota brand."
+            },
+            {
+              "subStep": "Click the checkbox for the Chevrolet brand.",
+              "code": "Click the checkbox for the Chevrolet brand."
+            },
+            {
+              "subStep": "Click the checkbox for the Hyundai brand.",
+              "code": "Click the checkbox for the Hyundai brand."
+            },
+            {
+              "subStep": "Click the checkbox for the Honda brand.",
+              "code": "Click the checkbox for the Honda brand."
+            },
+            {
+              "subStep": "Click the checkbox for the Honda brand.",
+              "code": "Click the checkbox for the Honda brand."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Click the 'save changes' button to apply the updates",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Save changes” button.",
+              "code": "Click the “Save changes” button."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Take a screenshot to confirm that the changes have been saved",
+          "generatedCode": []
+        }
+      ],
+      "generatedAt": 1780577971750,
+      "stepsSummary": "Navigate navbar and update lead management settings"
+    },
+    "generatedCodeAt": 1780578383221,
+    "generatedCodeMode": "stagehand"
+  }
+]

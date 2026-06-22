@@ -1,0 +1,62 @@
+[13:56:44.705][DEBUG][JsonStore] Successfully saved data
+[13:56:44.716][INFO][PlaywrightLoop] Login state reset after test completion {
+  "testId": "TEST-9c27e"
+}
+[13:56:44.714][DEBUG][MessageBroadcaster] Broadcasting message {
+  "type": "testruns",
+  "success": true,
+  "subscriberCount": 1
+}
+[13:56:44.718][DEBUG][MessageBroadcaster] Broadcasting message {
+  "type": "run:start",
+  "success": true,
+  "subscriberCount": 1
+}
+[13:56:44.722][INFO][MessageHandler] Getting config for key: maxParallelTests
+[13:56:44.720][TRACE][SidebarProvider] Message handled in onDidReceiveMessage {
+  "message": {
+    "id": "4f15b694-838d-41fa-9c88-f93ac4d87b08",
+    "type": "run:start",
+    "payload": {
+      "id": "TEST-9c27e",
+      "projectName": "geck dev"
+    },
+    "timestamp": 1781771087203
+  }
+}
+[13:56:44.726][TRACE][SidebarProvider] Message handled in onDidReceiveMessage {
+  "message": {
+    "id": "dea49ddd-8431-420b-9af9-521ef1c8b363",
+    "type": "config:get",
+    "payload": {
+      "key": "maxParallelTests"
+    },
+    "timestamp": 1781771204717
+  }
+}
+[13:56:44.717][DEBUG][MessageBroadcaster] Broadcasting message {
+  "type": "testruns",
+  "success": true,
+  "subscriberCount": 1
+}
+[13:56:44.727][INFO][MessageHandler] Getting config for key: maxParallelTests
+[13:56:44.724][DEBUG][MessageBroadcaster] Broadcasting message {
+  "type": "config:get",
+  "success": true,
+  "subscriberCount": 1
+}
+[13:56:44.729][DEBUG][MessageBroadcaster] Broadcasting message {
+  "type": "config:get",
+  "success": true,
+  "subscriberCount": 1
+}
+[13:56:44.730][TRACE][SidebarProvider] Message handled in onDidReceiveMessage {
+  "message": {
+    "id": "89e6288d-c7da-4b43-84db-ced3afbe35d4",
+    "type": "config:get",
+    "payload": {
+      "key": "maxParallelTests"
+    },
+    "timestamp": 1781771204719
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "testName": "Global Login",
+  "testId": "global-login-test-case",
+  "url": "https://kargone-admin.appening.xyz/auth/login",
+  "timestamp": 1782154083067,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open the login page by navigating to http://localhost:3000/login in your browser",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate to http://localhost:3000/login in the browser address bar.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1782154094438
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 6292,
+      "startTime": 1782154088444,
+      "endTime": 1782154094736
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "Enter the email address 'kargone-admin@yopmail.com' in the email input field",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Fill the email input field with `kargone-admin@yopmail.com`.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Fill the email input field with `kargone-admin@yopmail.com`.",
+              "refinedInstruction": "Fill the email input field with `kargone-admin@yopmail.com`.",
+              "executionSuccess": true,
+              "executionDuration": 5059,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1782154102586,
+              "response": "Action [fill] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1782154107645
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 7485,
+          "startTime": 1782154100162,
+          "endTime": 1782154107647
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The email address has already been entered in the email input field.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1782154112254,
+          "endTime": 1782154112257
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 16427,
+      "startTime": 1782154095835,
+      "endTime": 1782154112262
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "Enter the password 'secret' in the password input field",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Fill the password input field with `secret`.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Fill the password input field with `secret`.",
+              "refinedInstruction": "Fill the password input field with `secret`.",
+              "executionSuccess": true,
+              "executionDuration": 2659,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1782154122438,
+              "response": "Action [fill] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/input[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1782154125097
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 6901,
+          "startTime": 1782154118197,
+          "endTime": 1782154125098
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The password field has already been filled with `secret`.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1782154129768,
+          "endTime": 1782154129770
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 16375,
+      "startTime": 1782154113397,
+      "endTime": 1782154129772
+    },
+    {
+      "stepNumber": 4,
+      "stepDescription": "Click the Login button to initiate the authentication process",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the Login button.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the Login button.",
+              "refinedInstruction": "Click the Login button.",
+              "executionSuccess": true,
+              "executionDuration": 2568,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1782154141189,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/div[1]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1782154143757
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 4566,
+          "startTime": 1782154139193,
+          "endTime": 1782154143759
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Login button has already been clicked and the authentication process was initiated successfully.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1782154148406,
+          "endTime": 1782154148408
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 17509,
+      "startTime": 1782154130904,
+      "endTime": 1782154148413
+    },
+    {
+      "stepNumber": 5,
+      "stepDescription": "Verify that the user is successfully logged in by checking for a post-login element or URL change",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Verify that a protected post-login element such as the Car Listings heading is visible.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Verify that a protected post-login element such as the Car Listings heading is visible.",
+              "refinedInstruction": "Verify that a protected post-login element such as the Car Listings heading is visible.",
+              "executionSuccess": true,
+              "executionDuration": 4582,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1782154156761,
+              "response": "Action [scrollTo] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/header[1]/div[2]/h1[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1782154161343
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 7515,
+          "startTime": 1782154153829,
+          "endTime": 1782154161344
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The protected post-login Car Listings page is visible, confirming the user is successfully logged in.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1782154166836,
+          "endTime": 1782154166839
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 17285,
+      "startTime": 1782154149559,
+      "endTime": 1782154166844
+    },
+    {
+      "stepNumber": 6,
+      "stepDescription": "Take a screenshot of the logged-in dashboard to confirm successful login",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "SKIP: The dashboard is already visible after login, so the screenshot can be taken automatically.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1782154172677,
+          "endTime": 1782154172679
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 4847,
+      "startTime": 1782154167982,
+      "endTime": 1782154172829
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "domainType": "custom",
+    "uiLibrary": "none",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true
+  },
+  "totalDuration": 90856
+}

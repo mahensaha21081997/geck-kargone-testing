@@ -1,0 +1,186 @@
+{
+  "testName": "Check Each Car widgets working",
+  "testId": "TEST-e2281",
+  "url": "https://kargone-admin.appening.xyz/auth/login",
+  "timestamp": 1780383411852,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open a web browser and navigate to the website",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate to the website by entering the target URL in the browser address bar.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1780383422327
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 7332,
+      "startTime": 1780383415562,
+      "endTime": 1780383422894
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "Verify that the car listings page is rendered by checking that the expected listings are visible.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Verify that at least one car listing card is visible on the page.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "extract",
+              "instruction": "Verify that at least one car listing card is visible on the page.",
+              "refinedInstruction": "Verify that at least one car listing card is visible on the page.",
+              "executionSuccess": true,
+              "executionDuration": 3608,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780383428514,
+              "response": "Extracted: {\"extraction\":\"2020 Gmc Canyon\\n2023 Rolls Royce Dawn\\n2015 Sherman + Reilly Dawn\\n2023 Sherman + Reilly Dawn\\n2026 Sherman + Reilly Royce\\n2027 Sherman + Reilly Toyota12\\n2023 Sherman + Reilly Car\\n2009 Sherman + Reilly Safari\\n2022 Toyota Test Offer Cng\\n2024 Singh Singh 2026\"}",
+              "attemptSummary": "Stagehand extract() executed successfully",
+              "endTime": 1780383432122
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 4185,
+          "startTime": 1780383427938,
+          "endTime": 1780383432123
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The car listings page is rendered and multiple expected listing cards are visible.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 4,
+          "startTime": 1780383436318,
+          "endTime": 1780383436322
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 12335,
+      "startTime": 1780383423990,
+      "endTime": 1780383436325
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "Click on the seller info widget for the first car in the listings to view seller details.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the Seller info button on the first car listing card.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the Seller info button on the first car listing card.",
+              "refinedInstruction": "Click the Seller info button on the first car listing card.",
+              "executionSuccess": true,
+              "executionDuration": 4101,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780383443376,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780383447477
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 5450,
+          "startTime": 1780383442030,
+          "endTime": 1780383447480
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The seller info widget for the first car listing has already been clicked and seller details are displayed.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1780383451539,
+          "endTime": 1780383451541
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 14136,
+      "startTime": 1780383437407,
+      "endTime": 1780383451543
+    },
+    {
+      "stepNumber": 4,
+      "stepDescription": "Extract and note down the seller information displayed from the widget.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "FETCH: the seller information displayed in the Seller details widget, including the seller name, phone number, location, and email address",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "extract",
+              "instruction": "FETCH: the seller information displayed in the Seller details widget, including the seller name, phone number, location, and email address",
+              "refinedInstruction": "FETCH: the seller information displayed in the Seller details widget, including the seller name, phone number, location, and email address",
+              "executionSuccess": true,
+              "executionDuration": 3313,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780383458230,
+              "response": "Extracted: {\"extraction\":\"Seller Name: Aaron\\nPhone Number: (555) 555 - 5553\\nLocation: N/A\\nEmail Address: jessy@yopmail.com\"}",
+              "attemptSummary": "Stagehand extract() executed successfully",
+              "endTime": 1780383461543
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 3881,
+          "startTime": 1780383457667,
+          "endTime": 1780383461548
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The seller information has already been extracted from the Seller details widget.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1780383466100,
+          "endTime": 1780383466101
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 13460,
+      "startTime": 1780383452643,
+      "endTime": 1780383466103
+    },
+    {
+      "stepNumber": 5,
+      "stepDescription": "Take a screenshot of the page to capture and confirm the completed task",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Take a screenshot of the page to capture and confirm the completed task",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1780383475911
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 8907,
+      "startTime": 1780383467220,
+      "endTime": 1780383476127
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true,
+    "domainType": "custom",
+    "uiLibrary": "none"
+  },
+  "totalDuration": 65311
+}

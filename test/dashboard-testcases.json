@@ -1,0 +1,260 @@
+[
+  {
+    "url": "https://kargone-admin.appening.xyz/dealer",
+    "description": "1. after the dashboard renders with two tabs \\\"vehicles\\\" and \\\"messages\\\", to the \\\"Messages\\\" tab\\n2. in that tab content send \\\"Hi\\\" message to first contact available.",
+    "createdAt": 1782155716533,
+    "testname": "Send Message in Messages tab",
+    "projectName": "Dashboard",
+    "useSavedLoginState": true,
+    "id": "TEST-8020e",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to the website at https://kargone-admin.appening.xyz/dealer.",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Wait for the dashboard to load and ensure that both 'Vehicles' and 'Messages' tabs are visible.",
+          "generatedCode": [
+            {
+              "subStep": "Scroll down until the Vehicles and Messages tabs are visible.",
+              "code": "Scroll down until the Vehicles and Messages tabs are visible."
+            },
+            {
+              "subStep": "Verify that the Vehicles and Messages tabs are visible on the page.",
+              "code": "Verify that the Vehicles and Messages tabs are visible on the page."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Switch to the 'Messages' tab by selecting it.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Messages tab.",
+              "code": "Click the Messages tab."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Identify and select the first available contact listed in the Messages tab.",
+          "generatedCode": [
+            {
+              "subStep": "Click the first contact listed under the Messages tab.",
+              "code": "Click the first contact listed under the Messages tab."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Enter the message 'Hi' in the message input field for the selected contact.",
+          "generatedCode": [
+            {
+              "subStep": "Click the message input field and type \"Hi\".",
+              "code": "Click the message input field and type \"Hi\"."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Click the Send button to transmit the message.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Send button.",
+              "code": "Click the Send button."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Verify that the 'Hi' message appears in the conversation history for the selected contact.",
+          "generatedCode": [
+            {
+              "subStep": "Verify that the “Hi” message is visible in the conversation history for Rajesh.",
+              "code": "Verify that the “Hi” message is visible in the conversation history for Rajesh."
+            }
+          ]
+        },
+        {
+          "stepNumber": 8,
+          "stepDescription": "Take a screenshot of the completed task to confirm the message was successfully sent.",
+          "generatedCode": []
+        }
+      ],
+      "generatedAt": 1780483555831,
+      "stepsSummary": "Navigate to messages tab and send a message"
+    },
+    "generatedCodeAt": 1780483662539,
+    "generatedCodeMode": "stagehand"
+  },
+  {
+    "url": "https://kargone-admin.appening.xyz/dealer",
+    "description": "1. after rendering the page go the dashboard by clicking the first icon from left in the navbar right corner and clicking the first menu item in the sidebar\n2. then in the dashboard locate the VIN serach field and enter \"1GCGG296691143068\" \n3. it would give you one result and that car name must be \"2009 chevrolet express\", then only pass the test case",
+    "createdAt": 1780484262498,
+    "testname": "VIN search",
+    "projectName": "Dashboard",
+    "useSavedLoginState": true,
+    "id": "TEST-50250",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to the URL: https://kargone-admin.appening.xyz/dealer",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "On the page, click the first icon from the left in the navbar's right corner to access the dashboard menu",
+          "generatedCode": [
+            {
+              "subStep": "Click the analytics icon button in the top-right navbar.",
+              "code": "Click the analytics icon button in the top-right navbar."
+            },
+            {
+              "subStep": "Click the hamburger menu button in the top-right navbar.",
+              "code": "Click the hamburger menu button in the top-right navbar."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Click the first menu item in the sidebar to navigate further into the dashboard",
+          "generatedCode": [
+            {
+              "subStep": "Click the first sidebar menu item labeled “Dashboard.”",
+              "code": "Click the first sidebar menu item labeled “Dashboard.”"
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Locate the VIN search field in the dashboard and enter the VIN '1GCGG296691143068'",
+          "generatedCode": [
+            {
+              "subStep": "Click the Vin search input field and type `1GCGG296691143068`.",
+              "code": "Click the Vin search input field and type `1GCGG296691143068`."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Verify that the search returns one result and that the car name is displayed as '2009 chevrolet express'",
+          "generatedCode": [
+            {
+              "subStep": "Verify that the car name text “2009 chevrolet express” is visible on the page.",
+              "code": "Verify that the car name text “2009 chevrolet express” is visible on the page."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Take a screenshot of the completed dashboard state to confirm the test result",
+          "generatedCode": []
+        }
+      ],
+      "stepsSummary": "Dashboard navigation and VIN search verification"
+    },
+    "generatedCodeAt": 1780484343210,
+    "generatedCodeMode": "stagehand"
+  },
+  {
+    "url": "https://kargone-admin.appening.xyz/dealer",
+    "description": "1. go to the dashboard by clicking the first icon from left in the right corner of navbar and clicking the first menu item in the rendered sidebar\n2. the in the list of cars rendered click the \"make offer\" widget button for the first car.\n3. in the dialog enter 60000 for \"offer amount\" field and submit.\n4. then click the other widget button of the same card item \"Message\"\n5. when the messaaging dialog mounts click send button to send the default message",
+    "createdAt": 1780484801619,
+    "testname": "Make an offer",
+    "projectName": "Dashboard",
+    "useSavedLoginState": true,
+    "id": "TEST-652b5",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/dealer.",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Click the first icon on the left among the icons in the right corner of the navbar to open the sidebar.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Analytics button in the top-right of the navbar to open the sidebar.",
+              "code": "Click the Analytics button in the top-right of the navbar to open the sidebar."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Click the first menu item in the rendered sidebar to access the dashboard.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Dashboard menu item in the sidebar.",
+              "code": "Click the Dashboard menu item in the sidebar."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Within the list of cars displayed, click the 'make offer' widget button for the first car.",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Make an offer” button on the first car card.",
+              "code": "Click the “Make an offer” button on the first car card."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "In the offer dialog, enter 60000 in the 'offer amount' field.",
+          "generatedCode": [
+            {
+              "subStep": "Fill the offer amount input with 60000.",
+              "code": "Fill the offer amount input with 60000."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Submit the offer by clicking the appropriate submit button in the dialog.",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Offer Now” submit button in the dialog.",
+              "code": "Click the “Offer Now” submit button in the dialog."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "On the same car card, click the 'Message' widget button to open the messaging dialog.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Message button on the same car card to open the messaging dialog.",
+              "code": "Click the Message button on the same car card to open the messaging dialog."
+            }
+          ]
+        },
+        {
+          "stepNumber": 8,
+          "stepDescription": "When the messaging dialog appears, click the send button to send the default message.",
+          "generatedCode": [
+            {
+              "subStep": "Click the send button in the messaging dialog.",
+              "code": "Click the send button in the messaging dialog."
+            }
+          ]
+        },
+        {
+          "stepNumber": 9,
+          "stepDescription": "Take a screenshot of the completed workflow to confirm the successful execution of all actions.",
+          "generatedCode": []
+        }
+      ],
+      "generatedAt": 1780484801621,
+      "stepsSummary": "Navigate dashboard, make offer, and send message"
+    },
+    "generatedCodeAt": 1780484935809,
+    "generatedCodeMode": "stagehand"
+  }
+]

@@ -1,0 +1,269 @@
+[
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. go to Payment Plans sidebar menu item\\n2. in the Payment Plans grid in the page for the first \\\"Auto Leads\\\" click \\\"Edit Price\\\" button\\n3. and then edit the discount price to 100 and regular price to 1000 and save the numbers.",
+    "createdAt": 1782154672522,
+    "testname": "Auto Leads rate changes",
+    "projectName": "Payment Plans - seller",
+    "useSavedLoginState": true,
+    "id": "TEST-23406",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login.",
+          "generatedCode": [
+            {
+              "subStep": "Navigate the browser to https://kargone-admin.appening.xyz/auth/login.",
+              "code": "Navigate the browser to https://kargone-admin.appening.xyz/auth/login."
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Select the Payment Plans menu item from the sidebar.",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Payment Plans” link in the sidebar.",
+              "code": "Click the “Payment Plans” link in the sidebar."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "In the Payment Plans grid, locate the first entry labeled 'Auto Leads' and click its 'Edit Price' button.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Edit button on the first Payment Plans card labeled “Auto Leads — Regular Rate.”",
+              "code": "Click the Edit button on the first Payment Plans card labeled “Auto Leads — Regular Rate.”"
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "In the editing interface, update the discount price field to 100.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Discounted Price input in the Auto Leads — Regular Rate card and replace its value with 100.",
+              "code": "Click the Discounted Price input in the Auto Leads — Regular Rate card and replace its value with 100."
+            },
+            {
+              "subStep": "Click the checkmark button to save the updated discount price.",
+              "code": "Click the checkmark button to save the updated discount price."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Update the regular price field to 1000.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Edit button on the second Payment Plans card labeled “Pay-As-You-Go Lead.”",
+              "code": "Click the Edit button on the second Payment Plans card labeled “Pay-As-You-Go Lead.”"
+            },
+            {
+              "subStep": "Click the Regular Price input in the “Pay-As-You-Go Lead” card and replace its value with 1000.",
+              "code": "Click the Regular Price input in the “Pay-As-You-Go Lead” card and replace its value with 1000."
+            },
+            {
+              "subStep": "Click the checkmark button to save the updated regular price.",
+              "code": "Click the checkmark button to save the updated regular price."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Click the save button to apply the new prices.",
+          "generatedCode": [
+            {
+              "subStep": "Click the save button to apply the new prices.",
+              "code": "Click the save button to apply the new prices."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Verify that the updated prices are displayed correctly in the Payment Plans grid.",
+          "generatedCode": [
+            {
+              "subStep": "Verify that the updated prices are displayed correctly in the Payment Plans grid.",
+              "code": "Verify that the updated prices are displayed correctly in the Payment Plans grid."
+            }
+          ]
+        },
+        {
+          "stepNumber": 8,
+          "stepDescription": "Take a screenshot to confirm the successful update of the payment plan prices.",
+          "generatedCode": []
+        }
+      ],
+      "generatedAt": 1780403170595,
+      "stepsSummary": "Update Auto Leads pricing plan"
+    },
+    "generatedCodeAt": 1780403458026,
+    "generatedCodeMode": "stagehand"
+  },
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. go to Payment Plan sidebar menu item\n2. in the grid of rates go to Pay-As-You-Go Lead item and click it's \"Edit Price\" button\n3. change the discounted price to 100 and save the numbers",
+    "createdAt": 1780403590394,
+    "testname": "Pay As You Go Lead",
+    "projectName": "Payment Plans",
+    "useSavedLoginState": true,
+    "id": "TEST-334c0xy",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Select the 'Payment Plan' option from the sidebar menu.",
+          "generatedCode": [
+            {
+              "subStep": "Click the \"Payment Plans\" link in the sidebar menu.",
+              "code": "Click the \"Payment Plans\" link in the sidebar menu."
+            },
+            {
+              "subStep": "Click the \"Payment Plans\" option in the sidebar menu.",
+              "code": "Click the \"Payment Plans\" option in the sidebar menu."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Within the rates grid, find the 'Pay-As-You-Go Lead' item and click its 'Edit Price' button.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Edit button on the Pay-As-You-Go Lead card.",
+              "code": "Click the Edit button on the Pay-As-You-Go Lead card."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Update the discounted price field by entering the value 100.",
+          "generatedCode": [
+            {
+              "subStep": "Click the discounted price input field and replace its value with 100.",
+              "code": "Click the discounted price input field and replace its value with 100."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Click the 'Save' button to apply and store the updated price.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Save button to apply and store the updated price.",
+              "code": "Click the Save button to apply and store the updated price."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Verify the grid displays the updated price correctly for the 'Pay-As-You-Go Lead' item.",
+          "generatedCode": [
+            {
+              "subStep": "Verify that the updated discounted price for the “Pay-As-You-Go Lead” card is displayed correctly in the grid.",
+              "code": "Verify that the updated discounted price for the “Pay-As-You-Go Lead” card is displayed correctly in the grid."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Take a screenshot of the completed task to confirm the changes.",
+          "generatedCode": []
+        }
+      ],
+      "generatedAt": 1780403590396,
+      "stepsSummary": "Update the discounted price for Pay-As-You-Go Lead"
+    },
+    "generatedCodeAt": 1780403726622,
+    "generatedCodeMode": "stagehand"
+  },
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. go to the Payment Plans sidebar menu item\n2. in the grid items go to the last item \"Pay As You Go Offer\" and click \"Edit Price\" button\n3. change the discounted price to 30 and regular price to 100\n4. save the numbers.",
+    "createdAt": 1780404013130,
+    "testname": "Pay as you go Offer",
+    "projectName": "Payment Plans",
+    "useSavedLoginState": true,
+    "id": "TEST-f70dfyz",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Locate and click on the Payment Plans sidebar menu item",
+          "generatedCode": [
+            {
+              "subStep": "Click the Payment Plans sidebar menu item.",
+              "code": "Click the Payment Plans sidebar menu item."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "In the grid, find the last item labeled 'Pay As You Go Offer'",
+          "generatedCode": [
+            {
+              "subStep": "Click the Edit button on the last card labeled “Pay-As-You-Go Offer”.",
+              "code": "Click the Edit button on the last card labeled “Pay-As-You-Go Offer”."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Within the 'Pay As You Go Offer' grid item, click the Edit Price button",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Change the discounted price to 30 in the appropriate input field",
+          "generatedCode": [
+            {
+              "subStep": "Click the discounted price input in the “Pay-As-You-Go Offer” card and replace its value with 30.",
+              "code": "Click the discounted price input in the “Pay-As-You-Go Offer” card and replace its value with 30."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Change the regular price to 100 in the respective input field",
+          "generatedCode": [
+            {
+              "subStep": "Click the regular price input in the “Pay-As-You-Go Offer” card and replace its value with 100.",
+              "code": "Click the regular price input in the “Pay-As-You-Go Offer” card and replace its value with 100."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Click the Save button to update the pricing details",
+          "generatedCode": [
+            {
+              "subStep": "Click the Save button to update the pricing details",
+              "code": "Click the Save button to update the pricing details"
+            }
+          ]
+        },
+        {
+          "stepNumber": 8,
+          "stepDescription": "Take a screenshot of the updated Payment Plans section to confirm the changes",
+          "generatedCode": []
+        }
+      ],
+      "generatedAt": 1780404013132,
+      "stepsSummary": "Edit pricing for Pay As You Go Offer"
+    },
+    "generatedCodeAt": 1780404222863,
+    "generatedCodeMode": "stagehand"
+  }
+]

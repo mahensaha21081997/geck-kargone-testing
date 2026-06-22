@@ -1,0 +1,161 @@
+{
+  "testName": "testing",
+  "testId": "TEST-31fd8",
+  "url": "https://dev.geck.ai",
+  "timestamp": 1780339370854,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open a web browser and navigate to the target URL https://dev.geck.ai",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate to https://dev.geck.ai in the browser address bar.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1780339378718
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 4912,
+      "startTime": 1780339374053,
+      "endTime": 1780339378965
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "Enter the email address zeeshan.s@appening.xyz in the login field",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Fill the email input labeled \"Email\" with zeeshan.s@appening.xyz.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Fill the email input labeled \"Email\" with zeeshan.s@appening.xyz.",
+              "refinedInstruction": "Fill the email input labeled \"Email\" with zeeshan.s@appening.xyz.",
+              "executionSuccess": true,
+              "executionDuration": 4357,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780339384302,
+              "response": "Action [fill] performed successfully on selector: xpath=/html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780339388659
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 5340,
+          "startTime": 1780339383323,
+          "endTime": 1780339388663
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The email address has already been entered in the login field.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1780339392185,
+          "endTime": 1780339392187
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 12114,
+      "startTime": 1780339380075,
+      "endTime": 1780339392189
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "Provide the OTP 010626 in the OTP field to complete the login process",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Type 010626 into the OTP field.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Type 010626 into the OTP field.",
+              "refinedInstruction": "Type 010626 into the OTP field.",
+              "executionSuccess": true,
+              "executionDuration": 3637,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780339397944,
+              "response": "Action [fill] performed successfully on selector: xpath=/html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780339401581
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 4830,
+          "startTime": 1780339396755,
+          "endTime": 1780339401585
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The OTP has already been entered, so the step is complete.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1780339405055,
+          "endTime": 1780339405058
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 11785,
+      "startTime": 1780339393277,
+      "endTime": 1780339405062
+    },
+    {
+      "stepNumber": 4,
+      "stepDescription": "Verify that the login is successful and the dashboard is displayed",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Verify that the dashboard content is visible by checking for a dashboard heading or main dashboard area.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Verify that the dashboard content is visible by checking for a dashboard heading or main dashboard area.",
+              "refinedInstruction": "Verify that the dashboard content is visible by checking for a dashboard heading or main dashboard area.",
+              "executionSuccess": true,
+              "executionDuration": 5100,
+              "validation": {
+                "performed": true,
+                "passed": false,
+                "validationReason": "Act action mismatch: Mode B used because the sub-step explicitly requires verifying the visibility of the dashboard content. The page title 'Geck' and URL 'https://dev.geck.ai/' do not clearly confirm the dashboard is visible, as there is no mention of a dashboard heading or main dashboard area."
+              },
+              "startTime": 1780339411115,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/h1[1] → Action [scrollTo] performed successfully on selector: xpath=/html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/h1[1]",
+              "attemptSummary": "Validation failed: Act action mismatch: Mode B used because the sub-step explicitly requires verifying the visibility of the dashboard content. The page title 'Geck' and URL 'https://dev.geck.ai/' do not clearly confirm the dashboard is visible, as there is no mention of a dashboard heading or main dashboard area.",
+              "endTime": 1780339416215
+            }
+          ],
+          "finalStatus": "fail",
+          "totalDuration": 6228,
+          "startTime": 1780339409988,
+          "endTime": 1780339416216
+        }
+      ],
+      "stepStatus": "fail",
+      "duration": 10223,
+      "startTime": 1780339406175,
+      "endTime": 1780339416398
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true,
+    "domainType": "custom",
+    "uiLibrary": "none"
+  },
+  "totalDuration": 45545
+}

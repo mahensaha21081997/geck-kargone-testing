@@ -1,0 +1,249 @@
+{
+  "testName": "Dealer Status Change",
+  "testId": "TEST-ccc69",
+  "url": "https://kargone-admin.appening.xyz/auth/login",
+  "timestamp": 1780384685766,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate to https://kargone-admin.appening.xyz/auth/login by entering it in the browser address bar.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1780384691433
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 4410,
+      "startTime": 1780384687639,
+      "endTime": 1780384692049
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "Click on the Dealer Listings sidebar menu item to open the dealer listings section",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the Dealer Listings sidebar menu item.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the Dealer Listings sidebar menu item.",
+              "refinedInstruction": "Click the Dealer Listings sidebar menu item.",
+              "executionSuccess": true,
+              "executionDuration": 9998,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384697887,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/aside[1]/nav[1]/div[2]/div[1]/a[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384707885
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 11228,
+          "startTime": 1780384696658,
+          "endTime": 1780384707886
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Dealer Listings sidebar menu item has already been clicked.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1780384713514,
+          "endTime": 1780384713515
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 20384,
+      "startTime": 1780384693133,
+      "endTime": 1780384713517
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "In the dealer listings, click on the view details button for the first dealer to open the dealer details page",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the View details button for the first dealer card.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the View details button for the first dealer card.",
+              "refinedInstruction": "Click the View details button for the first dealer card.",
+              "executionSuccess": true,
+              "executionDuration": 5097,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384721121,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384726218
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 6176,
+          "startTime": 1780384720044,
+          "endTime": 1780384726220
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The first dealer's View details button has already been clicked and the dealer details page is open.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1780384730200,
+          "endTime": 1780384730203
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 15603,
+      "startTime": 1780384714602,
+      "endTime": 1780384730205
+    },
+    {
+      "stepNumber": 4,
+      "stepDescription": "On the dealer details page, locate the status dropdown within the header section",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the status dropdown labeled “Suspended” in the header section.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the status dropdown labeled “Suspended” in the header section.",
+              "refinedInstruction": "Click the status dropdown labeled “Suspended” in the header section.",
+              "executionSuccess": true,
+              "executionDuration": 5679,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384735859,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[2]/div[1]/div[1]/div[2]/div[2]/button[1] → Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[3]/div[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384741538
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 7008,
+          "startTime": 1780384734533,
+          "endTime": 1780384741541
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The status dropdown has already been clicked.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 4,
+          "startTime": 1780384745074,
+          "endTime": 1780384745078
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 13795,
+      "startTime": 1780384731286,
+      "endTime": 1780384745081
+    },
+    {
+      "stepNumber": 5,
+      "stepDescription": "Change the status from its current state to suspended using the status dropdown",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the status dropdown currently showing “Suspended” and select “Suspended” from the options.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the status dropdown currently showing “Suspended” and select “Suspended” from the options.",
+              "refinedInstruction": "Click the status dropdown currently showing “Suspended” and select “Suspended” from the options.",
+              "executionSuccess": true,
+              "executionDuration": 6794,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384750535,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[2]/div[1]/div[1]/div[2]/div[2]/button[1] → Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[3]/div[1]/div[1]/div[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384757329
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 7937,
+          "startTime": 1780384749398,
+          "endTime": 1780384757335
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The status has already been set to Suspended.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1780384762819,
+          "endTime": 1780384762821
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 16668,
+      "startTime": 1780384746154,
+      "endTime": 1780384762822
+    },
+    {
+      "stepNumber": 6,
+      "stepDescription": "Verify that the status has been updated to suspended on the dealer details page",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "SKIP: The dealer status is already shown as Suspended on the details page.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1780384767343,
+          "endTime": 1780384767346
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 3598,
+      "startTime": 1780384763891,
+      "endTime": 1780384767489
+    },
+    {
+      "stepNumber": 7,
+      "stepDescription": "Take a screenshot of the dealer details page to confirm the status update",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Take a screenshot of the dealer details page.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1780384771932
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 3529,
+      "startTime": 1780384768582,
+      "endTime": 1780384772111
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true,
+    "domainType": "custom",
+    "uiLibrary": "none"
+  },
+  "totalDuration": 87399
+}

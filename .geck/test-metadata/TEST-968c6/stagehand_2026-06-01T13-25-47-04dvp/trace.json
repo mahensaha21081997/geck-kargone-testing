@@ -1,0 +1,236 @@
+{
+  "testName": "test for reumemode",
+  "testId": "TEST-968c6",
+  "url": "https://v3-dev.resumod.in/",
+  "timestamp": 1780320347236,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Launch the browser and navigate to the target URL: https://v3-dev.resumod.in/",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate to https://v3-dev.resumod.in/ in the browser address bar.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1780320355750
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 5574,
+      "startTime": 1780320350507,
+      "endTime": 1780320356081
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "Enter the email address 'nootp.ram.d@appening.xyz' in the email field and select the 'Login with OTP' option.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Fill the email input with `nootp.ram.d@appening.xyz`.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Fill the email input with `nootp.ram.d@appening.xyz`.",
+              "refinedInstruction": "Fill the email input with `nootp.ram.d@appening.xyz`.",
+              "executionSuccess": true,
+              "executionDuration": 6137,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780320364922,
+              "response": "Action [fill] performed successfully on selector: xpath=/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780320371059
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 9548,
+          "startTime": 1780320361516,
+          "endTime": 1780320371064
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "Click the \"Login with OTP\" button.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the \"Login with OTP\" button.",
+              "refinedInstruction": "Click the \"Login with OTP\" button.",
+              "executionSuccess": true,
+              "executionDuration": 4101,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780320377516,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780320381617
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 6551,
+          "startTime": 1780320375068,
+          "endTime": 1780320381619
+        },
+        {
+          "subStepNumber": 3,
+          "subStepDescription": "SKIP: The email has already been entered and the Login with OTP option has already been selected.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1780320385261,
+          "endTime": 1780320385263
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 28090,
+      "startTime": 1780320357177,
+      "endTime": 1780320385267
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "Input the OTP '1496541235' in the OTP field and click the 'Verify' button.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Fill the OTP field with `1496541235`.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Fill the OTP field with `1496541235`.",
+              "refinedInstruction": "Fill the OTP field with `1496541235`.",
+              "executionSuccess": true,
+              "executionDuration": 3648,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780320391071,
+              "response": "Action [fill] performed successfully on selector: xpath=/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780320394719
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 4888,
+          "startTime": 1780320389836,
+          "endTime": 1780320394724
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "Click the \"Verify\" button.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the \"Verify\" button.",
+              "refinedInstruction": "Click the \"Verify\" button.",
+              "executionSuccess": true,
+              "executionDuration": 3693,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780320399757,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780320403450
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 4695,
+          "startTime": 1780320398758,
+          "endTime": 1780320403453
+        },
+        {
+          "subStepNumber": 3,
+          "subStepDescription": "SKIP: The OTP has already been entered and the Verify button has already been clicked.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 5,
+          "startTime": 1780320407893,
+          "endTime": 1780320407898
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 21545,
+      "startTime": 1780320386357,
+      "endTime": 1780320407902
+    },
+    {
+      "stepNumber": 4,
+      "stepDescription": "Confirm that the application has successfully logged in by verifying the URL contains '/resumes'.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Verify that the current URL contains `/resumes`.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Verify that the current URL contains `/resumes`.",
+              "refinedInstruction": "Verify that the current URL contains `/resumes`.",
+              "executionSuccess": true,
+              "executionDuration": 3983,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780320413910,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[1]/div[1]/aside[1]/nav[1]/div[1]/div[1]/a[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780320417893
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 5554,
+          "startTime": 1780320412341,
+          "endTime": 1780320417895
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The URL verification for `/resumes` has already been completed.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1780320422235,
+          "endTime": 1780320422238
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 13220,
+      "startTime": 1780320409020,
+      "endTime": 1780320422240
+    },
+    {
+      "stepNumber": 5,
+      "stepDescription": "Take a screenshot of the resumes page to confirm a successful login.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Take a screenshot of the resumes page.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1780320426721
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 3724,
+      "startTime": 1780320423333,
+      "endTime": 1780320427057
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true,
+    "domainType": "custom",
+    "uiLibrary": "none"
+  },
+  "totalDuration": 80877
+}

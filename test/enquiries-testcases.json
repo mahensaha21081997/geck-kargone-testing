@@ -1,0 +1,186 @@
+[
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. Navigate to the url.\n2. Click on the enquiries tab.\n3. Do a search by a seller name; Enter \"fd\" in serach tab and doa search acton.\n4. Click on the view button of the top search from the list\n5. Extract the device name from the popup.",
+    "createdAt": 1779888551760,
+    "testname": "Extract the device name",
+    "projectName": "Enquiries",
+    "useSavedLoginState": true,
+    "id": "TEST-6da21",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to the website using the URL 'https://kargone-admin.appening.xyz/auth/login'.",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Click on the 'enquiries' tab.",
+          "generatedCode": [
+            {
+              "subStep": "Click the \"Enquiries\" link in the Platform section.",
+              "code": "Click the 'Enquiries' link in the Platform section of the main navigation/sidebar. IMPORTANT: Select the primary 'Enquiries' navigation link for the Platform section, not any footer link, secondary menu item, or nested child element."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Enter 'fd' in the seller search field and initiate the search action.",
+          "generatedCode": [
+            {
+              "subStep": "Type `fd` into the seller search field.",
+              "code": "Fill the seller search input field on the Kargone Admin enquiries page (Seller tab) with 'fd'. Use the main seller search field, not any other input or filter control on the page."
+            },
+            {
+              "subStep": "Click the search field and press Enter to initiate the search.",
+              "code": "Click the search field on the Kargone Admin enquiries page and press Enter to initiate the search. IMPORTANT: Select the main search input field used for filtering enquiries, not any other input or control on the page."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Select the view button for the top search result from the enquiry list to open the details popup.",
+          "generatedCode": [
+            {
+              "subStep": "Click the View button on the top enquiry card.",
+              "code": "Click the 'View' button on the top enquiry card in the main enquiries list. IMPORTANT: Click the primary 'View' action button within the topmost enquiry card, not any other 'View' links or buttons elsewhere on the page."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Extract and verify the device name displayed in the popup details.",
+          "generatedCode": [
+            {
+              "subStep": "Fetch the device name shown in the Context section.",
+              "code": "Extract the device name shown in the Context section on the current page. IMPORTANT: read the text value displayed in the Context section only, and do not extract labels, surrounding metadata, or values from other sections."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Take a screenshot of the popup to ensure the device name has been successfully extracted.",
+          "generatedCode": []
+        }
+      ],
+      "stepsSummary": "Navigate enquiries search and extract device name"
+    },
+    "generatedCodeAt": 1779946952616,
+    "generatedCodeMode": "stagehand"
+  },
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. Navigate to the url\n2. Click on the \"enquiries\" tab.\n3. click on the select date range.\n4. select 1st april and 27th may as a date range.\n5. click on the \"done\" button.\n6. click on the sort y dropdown and select oldest first.\n7. click the view button of top card in the list.\n8. extract the device name",
+    "createdAt": 1779947095799,
+    "testname": "Enquiries select date filter",
+    "projectName": "Enquiries",
+    "useSavedLoginState": true,
+    "id": "TEST-457d1",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to the website using the provided URL.",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Select the 'enquiries' tab from the sidebar menu to view enquiry records.",
+          "generatedCode": [
+            {
+              "subStep": "Click the \"Enquiries\" link in the sidebar menu.",
+              "code": "Click the Enquiries link in the main sidebar navigation menu on the Kargone Admin page. IMPORTANT: Select the primary sidebar menu item labeled 'Enquiries', not any similar link in the main content area, header, or footer."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Click on the date range selection element to open the calendar picker.",
+          "generatedCode": [
+            {
+              "subStep": "Click the \"Select Date Range\" button to open the calendar picker.",
+              "code": "Click the 'Select Date Range' button on the page. IMPORTANT: Click the main date range selection button used to open the date picker or filter control, not any similarly labeled text, dropdown item, or nested element inside another control."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Select the start date as 1st April from the calendar.",
+          "generatedCode": [
+            {
+              "subStep": "Click the day button labeled “Wednesday, April 1st, 2026” in the calendar.",
+              "code": "Click the day button labeled \"Wednesday, April 1st, 2026\" in the calendar. IMPORTANT: Select the date button itself in the calendar grid, not any surrounding navigation controls, month/year selectors, or other calendar elements."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Select the end date as 27th May from the calendar.",
+          "generatedCode": [
+            {
+              "subStep": "Click the day button labeled “Wednesday, May 27th, 2026” in the calendar.",
+              "code": "Click the day button labeled \"Wednesday, May 27th, 2026\" in the calendar. IMPORTANT: Select the calendar day button itself, not any surrounding date picker controls, month navigation arrows, or other calendar elements."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Click on the 'done' button to confirm the selected date range.",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Done” button to confirm the selected date range.",
+              "code": "Click the 'Done' button on the Kargone Admin enquiries page. IMPORTANT: Click the primary action button labeled 'Done' in the main content area, not any similarly named link, menu item, or secondary control."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Open the sort dropdown and choose the 'oldest first' option to reorder the list.",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Sort by” dropdown button.",
+              "code": "Click the 'Sort by' dropdown button on the page. IMPORTANT: Click the main sorting control for the enquiries list, not any other dropdowns, filters, or menu buttons in the header or sidebar."
+            },
+            {
+              "subStep": "Click the “Oldest First” menu item.",
+              "code": "Click the 'Oldest First' menu item in the sorting/filter menu on the enquiries page. IMPORTANT: Select the actual menu option labeled 'Oldest First', not a nearby tab, button, or any other sorting control."
+            }
+          ]
+        },
+        {
+          "stepNumber": 8,
+          "stepDescription": "Identify the top card in the enquiries list and click its view button to display details.",
+          "generatedCode": [
+            {
+              "subStep": "Click the top enquiry card’s View button to open its details.",
+              "code": "Click the View button on the top enquiry card to open that enquiry's details. IMPORTANT: Click the View action button within the main/top enquiry card, not any other View link or button elsewhere on the page."
+            }
+          ]
+        },
+        {
+          "stepNumber": 9,
+          "stepDescription": "Extract and verify the device name from the detailed view of the enquiry.",
+          "generatedCode": [
+            {
+              "subStep": "Click the View button for the top enquiry card to open its detailed view.",
+              "code": "Click the View button on the top enquiry card in the main content area. IMPORTANT: Click the primary View action for the first/top enquiry card, not any View button in other cards, side panels, or nested elements."
+            },
+            {
+              "subStep": "Fetch the device name value from the Context section.",
+              "code": "Extract the device name value from the Context section on the current page. IMPORTANT: Read the value shown in the main Context details area, not any similarly labeled text in navigation, filters, tables, or nested child elements."
+            }
+          ]
+        },
+        {
+          "stepNumber": 10,
+          "stepDescription": "Take a screenshot of the final page to confirm the successful completion of the test steps.",
+          "generatedCode": []
+        }
+      ],
+      "stepsSummary": "Navigate enquiries, filter by date, sort and view device details"
+    },
+    "generatedCodeAt": 1779947711708,
+    "generatedCodeMode": "stagehand"
+  }
+]

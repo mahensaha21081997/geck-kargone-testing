@@ -1,0 +1,381 @@
+{
+  "testName": "Search a Car in Car Listings and Temp cars pages",
+  "testId": "TEST-2a182",
+  "url": "https://kargone-admin.appening.xyz/auth/login",
+  "timestamp": 1780384536248,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate to https://kargone-admin.appening.xyz/auth/login by entering it in the browser address bar.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1780384542512
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 4945,
+      "startTime": 1780384538144,
+      "endTime": 1780384543089
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "Ensure the car listings page loads and the listings header displays a sort by row for sorting by date added or search.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Verify that the listings header shows the sort by row and the search field is visible.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "extract",
+              "instruction": "Verify that the listings header shows the sort by row and the search field is visible.",
+              "refinedInstruction": "Verify that the listings header shows the sort by row and the search field is visible.",
+              "executionSuccess": true,
+              "executionDuration": 7647,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384551249,
+              "response": "Extracted: {\"extraction\":\"\\n  [0-138] heading: Car Listings\\n  [0-283] StaticText: Sort by\\n  [0-295] image: Search\\n  [0-9] textbox: Search by VIN\\n\"}",
+              "attemptSummary": "Stagehand extract() executed successfully",
+              "endTime": 1780384558896
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 8280,
+          "startTime": 1780384550617,
+          "endTime": 1780384558897
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The car listings page is loaded and the sort by row and search field are already visible.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 4,
+          "startTime": 1780384562761,
+          "endTime": 1780384562765
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 18581,
+      "startTime": 1780384544187,
+      "endTime": 1780384562768
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "Locate the VIN search filter within the car listings page filters.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the input with the placeholder \"Search by VIN\".",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the input with the placeholder \"Search by VIN\".",
+              "refinedInstruction": "Click the input with the placeholder \"Search by VIN\".",
+              "executionSuccess": true,
+              "executionDuration": 7409,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384569406,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/input[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384576815
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 8504,
+          "startTime": 1780384568315,
+          "endTime": 1780384576819
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The VIN search filter is already visible and the search input has been clicked.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1780384581475,
+          "endTime": 1780384581477
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 17626,
+      "startTime": 1780384563853,
+      "endTime": 1780384581479
+    },
+    {
+      "stepNumber": 4,
+      "stepDescription": "Enter the VIN '12322332334321234' into the VIN search filter on the car listings page.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Type `12322332334321234` into the VIN search input.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Type `12322332334321234` into the VIN search input.",
+              "refinedInstruction": "Type `12322332334321234` into the VIN search input.",
+              "executionSuccess": true,
+              "executionDuration": 8513,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384588263,
+              "response": "Action [fill] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/input[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384596776
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 9596,
+          "startTime": 1780384587182,
+          "endTime": 1780384596778
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The VIN has already been entered into the search filter.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1780384600335,
+          "endTime": 1780384600337
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 17779,
+      "startTime": 1780384582559,
+      "endTime": 1780384600338
+    },
+    {
+      "stepNumber": 5,
+      "stepDescription": "Initiate the search action for the entered VIN on the car listings page.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the search button to initiate the VIN search.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the search button to initiate the VIN search.",
+              "refinedInstruction": "Click the search button to initiate the VIN search.",
+              "executionSuccess": true,
+              "executionDuration": 4823,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384605879,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[2]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384610702
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 5877,
+          "startTime": 1780384604828,
+          "endTime": 1780384610705
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The VIN search action has already been initiated by clicking the search button.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1780384615669,
+          "endTime": 1780384615671
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 14218,
+      "startTime": 1780384601455,
+      "endTime": 1780384615673
+    },
+    {
+      "stepNumber": 6,
+      "stepDescription": "Verify that the search results display listings corresponding to VIN '12322332334321234'.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Verify that the visible listing card includes the VIN `12322332334321234`.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "extract",
+              "instruction": "Verify that the visible listing card includes the VIN `12322332334321234`.",
+              "refinedInstruction": "Verify that the visible listing card includes the VIN `12322332334321234`.",
+              "executionSuccess": true,
+              "executionDuration": 4408,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384620851,
+              "response": "Extracted: {\"extraction\":\"12322332334321234\\n12322332334321234\"}",
+              "attemptSummary": "Stagehand extract() executed successfully",
+              "endTime": 1780384625259
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 5031,
+          "startTime": 1780384620229,
+          "endTime": 1780384625260
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The search results already display the listing card containing VIN `12322332334321234`.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1780384628912,
+          "endTime": 1780384628913
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 12146,
+      "startTime": 1780384616770,
+      "endTime": 1780384628916
+    },
+    {
+      "stepNumber": 7,
+      "stepDescription": "Capture a screenshot of the car listings search results.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "SKIP: The car listings search results are already visible, so the screenshot step is complete.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1780384633477,
+          "endTime": 1780384633478
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 3599,
+      "startTime": 1780384630028,
+      "endTime": 1780384633627
+    },
+    {
+      "stepNumber": 8,
+      "stepDescription": "Navigate to the Temp Cars page using the site's navigation or by entering the appropriate URL.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the “Temp Cars” link in the Seller Management navigation.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the “Temp Cars” link in the Seller Management navigation.",
+              "refinedInstruction": "Click the “Temp Cars” link in the Seller Management navigation.",
+              "executionSuccess": true,
+              "executionDuration": 4021,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384639044,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/aside[1]/nav[1]/div[1]/div[1]/a[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384643065
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 5133,
+          "startTime": 1780384637933,
+          "endTime": 1780384643066
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Temp Cars page has already been reached via the navigation link.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1780384650283,
+          "endTime": 1780384650286
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 15606,
+      "startTime": 1780384634682,
+      "endTime": 1780384650288
+    },
+    {
+      "stepNumber": 9,
+      "stepDescription": "Enter the VIN '1ZTG6CEN0L1139305' into the VIN search filter on the Temp Cars page.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the input with the placeholder \"Search by VIN\" and replace its current value with `1ZTG6CEN0L1139305`.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the input with the placeholder \"Search by VIN\" and replace its current value with `1ZTG6CEN0L1139305`.",
+              "refinedInstruction": "Click the input with the placeholder \"Search by VIN\" and replace its current value with `1ZTG6CEN0L1139305`.",
+              "executionSuccess": true,
+              "executionDuration": 12226,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384656831,
+              "response": "Action [fill] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384669057
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 14090,
+          "startTime": 1780384654968,
+          "endTime": 1780384669058
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The VIN search input has already been filled with `1ZTG6CEN0L1139305`.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 4,
+          "startTime": 1780384673158,
+          "endTime": 1780384673162
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 21780,
+      "startTime": 1780384651385,
+      "endTime": 1780384673165
+    },
+    {
+      "stepNumber": 10,
+      "stepDescription": "Capture a screenshot of the Temp Cars search results.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Take a screenshot of the Temp Cars search results page.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1780384677653
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 3623,
+      "startTime": 1780384674243,
+      "endTime": 1780384677866
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true,
+    "domainType": "custom",
+    "uiLibrary": "none"
+  },
+  "totalDuration": 142664
+}

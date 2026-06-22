@@ -1,0 +1,124 @@
+{
+  "testName": "Add Credits",
+  "testId": "TEST-2bbbe",
+  "url": "https://kargone-admin.appening.xyz/auth/login",
+  "timestamp": 1780385023028,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate the browser to https://kargone-admin.appening.xyz/auth/login",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Navigate the browser to https://kargone-admin.appening.xyz/auth/login",
+              "refinedInstruction": "Navigate the browser to https://kargone-admin.appening.xyz/auth/login",
+              "executionSuccess": true,
+              "executionDuration": 7026,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780385030668,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/header[1]/div[1]/a[2] → Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[2]/div[1]/button[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780385037694
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 8412,
+          "startTime": 1780385029283,
+          "endTime": 1780385037695
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: Navigation to the login URL has already been completed.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 5,
+          "startTime": 1780385043627,
+          "endTime": 1780385043632
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 18685,
+      "startTime": 1780385024950,
+      "endTime": 1780385043635
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "Locate the sidebar on the page and select the Dealer Listings option",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the sidebar menu button to open the navigation drawer.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the sidebar menu button to open the navigation drawer.",
+              "refinedInstruction": "Click the sidebar menu button to open the navigation drawer.",
+              "executionSuccess": true,
+              "executionDuration": 6974,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780385049101,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/aside[1]/nav[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780385056075
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 7976,
+          "startTime": 1780385048101,
+          "endTime": 1780385056077
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "Click the Dealer Listings link in the sidebar navigation.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the Dealer Listings link in the sidebar navigation.",
+              "refinedInstruction": "Click the Dealer Listings link in the sidebar navigation.",
+              "executionSuccess": true,
+              "executionDuration": 6009,
+              "validation": {
+                "performed": true,
+                "passed": false,
+                "validationReason": "Act action mismatch: Mode B was used because the sub-step required navigating to a specific section. The URL and page title indicate the user is not in the Dealer Listings section, contradicting the expected outcome."
+              },
+              "startTime": 1780385061189,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/aside[1]/nav[1]/div[2]/div[1]/a[1]",
+              "attemptSummary": "Validation failed: Act action mismatch: Mode B was used because the sub-step required navigating to a specific section. The URL and page title indicate the user is not in the Dealer Listings section, contradicting the expected outcome.",
+              "endTime": 1780385067198
+            }
+          ],
+          "finalStatus": "fail",
+          "totalDuration": 7007,
+          "startTime": 1780385060192,
+          "endTime": 1780385067199
+        }
+      ],
+      "stepStatus": "fail",
+      "duration": 22726,
+      "startTime": 1780385044712,
+      "endTime": 1780385067438
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true,
+    "domainType": "custom",
+    "uiLibrary": "none"
+  },
+  "totalDuration": 44412
+}

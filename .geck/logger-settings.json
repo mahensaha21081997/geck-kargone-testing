@@ -1,0 +1,9 @@
+{
+  "fileOverrides": {
+    "AIStepLoop": "debug",
+    "CLI PlaywrightLoop": "info",
+    "StagehandLoop": "warn"
+  },
+  "enableConsole": true,
+  "enableFile": true
+}

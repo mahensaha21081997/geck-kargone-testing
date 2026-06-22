@@ -1,0 +1,94 @@
+[
+  {
+    "url": "https://kargone-admin.appening.xyz/dealer",
+    "description": "1. go to \\\"Dealer Analytics\\\" by clicking the first button from left side in the navbar right corner\\n2. then in the rendered sidebar click the third menu item \\\"Vehicle Appaisal\\\"\\n3. and then in the \\\"VIN\\\" tab locate the \\\"VIN number\\\" field and enter \\\"12322332334321234\\\" in that field and click \\\"Get Started\\\"\\n4. verify if the layout changes and it shows the resulted fields.",
+    "createdAt": 1782156214919,
+    "testname": "VIN Lookup",
+    "projectName": "Vehicle Appraisal",
+    "useSavedLoginState": true,
+    "id": "TEST-b9af5",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to the website at https://kargone-admin.appening.xyz/dealer",
+          "generatedCode": [
+            {
+              "subStep": "Navigate to the URL: https://kargone-admin.appening.xyz/dealer",
+              "code": "await page.goto('https://kargone-admin.appening.xyz/dealer');"
+            },
+            {
+              "subStep": "Navigate to https://kargone-admin.appening.xyz/dealer in the browser address bar.",
+              "code": "await page.goto('https://kargone-admin.appening.xyz/dealer')"
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "In the navbar at the right corner, click the first button to access Dealer Analytics",
+          "generatedCode": [
+            {
+              "subStep": "Click the Analytics button in the top-right navbar.",
+              "code": "await page.getByRole('button', { name: /toggle unlock deals card/i }).click();"
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Within the rendered sidebar, click the third menu item labeled 'Vehicle Appaisal'",
+          "generatedCode": [
+            {
+              "subStep": "Click the third sidebar menu item labeled Vehicle Appraisal.",
+              "code": "await page.getByRole('link', { name: /Vehicle Appraisal/i }).click();"
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Switch to the 'VIN' tab, locate the 'VIN number' field, enter the VIN '12322332334321234', and then click the 'Get Started' button",
+          "generatedCode": [
+            {
+              "subStep": "Click the \"VIN\" tab.",
+              "code": "await page.getByRole('tab', { name: /VIN/i }).click();"
+            },
+            {
+              "subStep": "Fill the VIN number field with `12322332334321234`.",
+              "code": "await page.getByPlaceholder('Enter VIN number here').fill('12322332334321234');"
+            },
+            {
+              "subStep": "Click the \"Get Started\" button.",
+              "code": "await page.getByRole('button', { name: /get started/i }).click();"
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Verify that the layout changes and displays the resulting fields as expected",
+          "generatedCode": [
+            {
+              "subStep": "Verify that the resulting fields or layout changes are visible on the page.",
+              "code": "await expect(page.locator('main')).toContainText(/VIN Lookup|License plate|Enter 17-character VIN|Searching\\.\\.\\./i)"
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Take a screenshot of the final layout to confirm the test completion",
+          "generatedCode": [
+            {
+              "subStep": "Take a screenshot of the current page",
+              "code": "await page.screenshot({ fullPage: true });"
+            },
+            {
+              "subStep": "Take a screenshot of the current page to confirm the final layout.",
+              "code": "await page.screenshot({ fullPage: true })"
+            }
+          ]
+        }
+      ],
+      "stepsSummary": "Navigate Dealer Analytics and verify VIN process"
+    },
+    "generatedCodeAt": 1780897876709,
+    "generatedCodeMode": "playwright"
+  }
+]

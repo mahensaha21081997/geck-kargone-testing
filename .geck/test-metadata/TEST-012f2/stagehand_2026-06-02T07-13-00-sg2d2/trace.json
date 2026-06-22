@@ -1,0 +1,381 @@
+{
+  "testName": "Add Notes",
+  "testId": "TEST-012f2",
+  "url": "https://kargone-admin.appening.xyz/auth/login",
+  "timestamp": 1780384380441,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open a web browser and navigate to the website at https://kargone-admin.appening.xyz/auth/login",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate to https://kargone-admin.appening.xyz/auth/login in the browser address bar.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1780384386090
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 4493,
+      "startTime": 1780384382194,
+      "endTime": 1780384386687
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "On the car listings page, locate the first car card and click the Add Notes widget button on that card",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the Add Notes button on the first car card.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the Add Notes button on the first car card.",
+              "refinedInstruction": "Click the Add Notes button on the first car card.",
+              "executionSuccess": true,
+              "executionDuration": 7125,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384392848,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[4]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384399973
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 8094,
+          "startTime": 1780384391880,
+          "endTime": 1780384399974
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Add Notes widget button on the first car card has already been clicked.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1780384405529,
+          "endTime": 1780384405531
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 17770,
+      "startTime": 1780384387764,
+      "endTime": 1780384405534
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "Wait for the dialog to appear that contains an image upload field and a textarea for notes",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Wait for the dialog containing the image upload field and notes textarea to be visible.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "extract",
+              "instruction": "Wait for the dialog containing the image upload field and notes textarea to be visible.",
+              "refinedInstruction": "Wait for the dialog containing the image upload field and notes textarea to be visible.",
+              "executionSuccess": true,
+              "executionDuration": 7780,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384412315,
+              "response": "Extracted: {\"extraction\":\"\\n        [0-1460] region: Notifications alt+T\\n        [0-1508] dialog: Add Notes\\n          [0-1479] heading: Add Notes\\n          [0-1505] scrollable, div\\n            [0-1499] LabelText\\n              [0-1483] image: Upload\\n              [0-1487] paragraph\\n                [0-1515] StaticText: Click to upload\\n                [0-1516] StaticText: or Add Files (.jpg, jpeg or heic format)\\n              [0-1488] paragraph\\n                [0-1517] StaticText: Pictures upto 10 MB is allowed (.jpg, .png format supported)\\n            [0-1498] div\\n              [0-1493] div\\n                [0-1521] StaticText: \\n                [0-1492] textbox: Add your notes here\\n              [0-1495] paragraph\\n                [0-1518] StaticText: Max\\n                [0-1519] StaticText: 2000\\n                [0-1520] StaticText: characters\\n          [0-1501] button: Submit\\n        [0-1506] button: Cross Red Close Red\\n          [0-1502] image: Cross Red\\n          [0-1523] StaticText: Close Red\"}",
+              "attemptSummary": "Stagehand extract() executed successfully",
+              "endTime": 1780384420095
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 8351,
+          "startTime": 1780384411747,
+          "endTime": 1780384420098
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The dialog with the image upload field and notes textarea is already visible.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1780384423988,
+          "endTime": 1780384423989
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 17380,
+      "startTime": 1780384406611,
+      "endTime": 1780384423991
+    },
+    {
+      "stepNumber": 4,
+      "stepDescription": "in the textarea, enter the text '[car name] reviewed by @'",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click into the textarea with placeholder \"Add your notes here\" and type \"[car name] reviewed by @\".",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click into the textarea with placeholder \"Add your notes here\" and type \"[car name] reviewed by @\".",
+              "refinedInstruction": "Click into the textarea with placeholder \"Add your notes here\" and type \"[car name] reviewed by @\".",
+              "executionSuccess": true,
+              "executionDuration": 8955,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384430304,
+              "response": "Action [fill] performed successfully on selector: xpath=/html[1]/body[1]/div[4]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384439259
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 9979,
+          "startTime": 1780384429281,
+          "endTime": 1780384439260
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The textarea already contains the requested text.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 7,
+          "startTime": 1780384442991,
+          "endTime": 1780384442998
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 17896,
+      "startTime": 1780384425105,
+      "endTime": 1780384443001
+    },
+    {
+      "stepNumber": 5,
+      "stepDescription": "after entering \"@\" a list of admins dropdown comes and then Select the first admin option from the dropdown provided in the dropdown",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the first admin option in the dropdown.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the first admin option in the dropdown.",
+              "refinedInstruction": "Click the first admin option in the dropdown.",
+              "executionSuccess": true,
+              "executionDuration": 13133,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384449759,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[1]/div[1]/div[2]/button[1] → Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384462892
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 14293,
+          "startTime": 1780384448601,
+          "endTime": 1780384462894
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The first admin option has already been clicked.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1780384466742,
+          "endTime": 1780384466744
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 22628,
+      "startTime": 1780384444118,
+      "endTime": 1780384466746
+    },
+    {
+      "stepNumber": 6,
+      "stepDescription": "Submit the form in the dialog to add the note",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the Submit button in the Add Notes dialog.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the Submit button in the Add Notes dialog.",
+              "refinedInstruction": "Click the Submit button in the Add Notes dialog.",
+              "executionSuccess": true,
+              "executionDuration": 9538,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384472613,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[4]/div[2]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384482151
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 10853,
+          "startTime": 1780384471301,
+          "endTime": 1780384482154
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The note has already been submitted successfully.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1780384486098,
+          "endTime": 1780384486099
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 18258,
+      "startTime": 1780384467842,
+      "endTime": 1780384486100
+    },
+    {
+      "stepNumber": 7,
+      "stepDescription": "Locate the car info widget button on the same car card and click it to navigate to the car details page",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the Car info button on the first car card.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the Car info button on the first car card.",
+              "refinedInstruction": "Click the Car info button on the first car card.",
+              "executionSuccess": true,
+              "executionDuration": 7895,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384491686,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[2]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384499581
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 8914,
+          "startTime": 1780384490668,
+          "endTime": 1780384499582
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Car info button has already been clicked, so the navigation action is complete.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1780384503167,
+          "endTime": 1780384503170
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 15983,
+      "startTime": 1780384487190,
+      "endTime": 1780384503173
+    },
+    {
+      "stepNumber": 8,
+      "stepDescription": "In the car details page, switch to the Notes tab to view all notes related to the car",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the Notes tab.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the Notes tab.",
+              "refinedInstruction": "Click the Notes tab.",
+              "executionSuccess": true,
+              "executionDuration": 3835,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384508552,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[2]/div[1]/button[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384512387
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 4832,
+          "startTime": 1780384507557,
+          "endTime": 1780384512389
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Notes tab is already selected and the notes are visible.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1780384515866,
+          "endTime": 1780384515867
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 11596,
+      "startTime": 1780384504273,
+      "endTime": 1780384515869
+    },
+    {
+      "stepNumber": 9,
+      "stepDescription": "Verify that the note you created appears in the Notes tab",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "SKIP: The note is already visible in the Notes tab.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1780384520575,
+          "endTime": 1780384520576
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 3762,
+      "startTime": 1780384516937,
+      "endTime": 1780384520699
+    },
+    {
+      "stepNumber": 10,
+      "stepDescription": "Take a screenshot of the completed task to confirm the note is visible and the process was successful",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Take a screenshot of the page to confirm the note is visible and the task is complete.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1780384526128
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 4506,
+      "startTime": 1780384521800,
+      "endTime": 1780384526306
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true,
+    "domainType": "custom",
+    "uiLibrary": "none"
+  },
+  "totalDuration": 146898
+}

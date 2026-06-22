@@ -1,0 +1,250 @@
+[
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. after login go to Dealer Listings sidebar menu item\\n2. in the list click the view details button of the first dealer and go to dealer detials page\\n3. then in the dealer details header locate the status dropdown and set the status to suspended.",
+    "createdAt": 1779875503471,
+    "testname": "Dealer Status Change",
+    "projectName": "Dealer Listings",
+    "useSavedLoginState": true,
+    "id": "TEST-ccc69",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Click on the Dealer Listings sidebar menu item to open the dealer listings section",
+          "generatedCode": [
+            {
+              "subStep": "Click the Dealer Listings sidebar menu item.",
+              "code": "Click the Dealer Listings sidebar menu item."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "In the dealer listings, click on the view details button for the first dealer to open the dealer details page",
+          "generatedCode": [
+            {
+              "subStep": "Click the View details button for the first dealer card.",
+              "code": "Click the View details button for the first dealer card."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "On the dealer details page, locate the status dropdown within the header section",
+          "generatedCode": [
+            {
+              "subStep": "Click the status dropdown labeled “Suspended” in the header section.",
+              "code": "Click the status dropdown labeled “Suspended” in the header section."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Change the status from its current state to suspended using the status dropdown",
+          "generatedCode": [
+            {
+              "subStep": "Click the status dropdown currently showing “Suspended” and select “Suspended” from the options.",
+              "code": "Click the status dropdown currently showing “Suspended” and select “Suspended” from the options."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Verify that the status has been updated to suspended on the dealer details page",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Take a screenshot of the dealer details page to confirm the status update",
+          "generatedCode": []
+        }
+      ],
+      "generatedAt": 1779784562851,
+      "stepsSummary": "Navigate dealer listings and update dealer status"
+    },
+    "generatedCodeAt": 1780384773554,
+    "generatedCodeMode": "stagehand"
+  },
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. in the sidebar go to Dealer Listings\n2. for the first dealer in the list click \"view details\" button\n3. it goes to dealer details page and in that page click the \"Credits\" tab trigger\n4.locate \"Add Credits\" button and click that\n5.after dialog mounts, in credit amount input enter 50 and submit",
+    "createdAt": 1779874112201,
+    "testname": "Add Credits",
+    "projectName": "Dealer Listings",
+    "useSavedLoginState": true,
+    "id": "TEST-2bbbe",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Locate the sidebar on the page and select the Dealer Listings option",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Dealer Listings” link in the sidebar.",
+              "code": "Click the “Dealer Listings” link in the sidebar."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "In the Dealer Listings view, click the view details button for the first dealer in the list",
+          "generatedCode": [
+            {
+              "subStep": "Click the “View details” button on the first dealer card in the list.",
+              "code": "Click the “View details” button on the first dealer card in the list."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "On the dealer details page, switch to the Credits tab by clicking its trigger",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Credits” tab trigger.",
+              "code": "Click the “Credits” tab trigger."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Find and click the Add Credits button on the Credits section",
+          "generatedCode": [
+            {
+              "subStep": "Click the “+ Add Credits” button.",
+              "code": "Click the “+ Add Credits” button."
+            },
+            {
+              "subStep": "Click the “Add Credits” button.",
+              "code": "Click the “Add Credits” button."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Once the add credit dialog appears, enter the value 50 into the credit amount input field",
+          "generatedCode": [
+            {
+              "subStep": "Click the credit amount input field and type 50.",
+              "code": "Click the credit amount input field and type 50."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Submit the credit form to apply the credit update",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Add Credits” button to submit the credit form.",
+              "code": "Click the “Add Credits” button to submit the credit form."
+            }
+          ]
+        },
+        {
+          "stepNumber": 8,
+          "stepDescription": "Take a screenshot of the completed task to verify the credits were successfully added",
+          "generatedCode": []
+        }
+      ],
+      "stepsSummary": "Navigate dealer listings and add credits"
+    },
+    "generatedCodeAt": 1779968417744,
+    "generatedCodeMode": "stagehand"
+  },
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1.in the sidebar go to \"Dealer Listings\"\n2. for the first dealer in the list click \"view details\" button\n3. after going to deaer details page, go to credits tab\n4. locate the \"Remove Credits\" button\n5. when the remove credits dialog opens enter 50 into the Deby Amount input and submit",
+    "createdAt": 1779968989644,
+    "testname": "Remove Credits",
+    "projectName": "Dealer Listings",
+    "useSavedLoginState": true,
+    "id": "TEST-34e75",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "In the sidebar, click on the 'Dealer Listings' option to see the list of dealers",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Dealer Listings” link in the sidebar.",
+              "code": "Click the “Dealer Listings” link in the sidebar."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "For the first dealer in the list, click the 'view details' button to see detailed information",
+          "generatedCode": [
+            {
+              "subStep": "Click the “View details” button on the first dealer card.",
+              "code": "Click the “View details” button on the first dealer card."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "On the dealer details page, click on the 'Credits' tab",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Credits” tab.",
+              "code": "Click the “Credits” tab."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Locate the 'Remove Credits' button within the Credits tab",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Remove Credits” button.",
+              "code": "Click the “Remove Credits” button."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "When the Remove Credits dialog opens, enter 50 into the Deby Amount input field",
+          "generatedCode": [
+            {
+              "subStep": "Fill the input labeled “Debit Amount” with 50.",
+              "code": "Fill the input labeled “Debit Amount” with 50."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Submit the Remove Credits dialog to complete the removal process",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Remove Credits” button.",
+              "code": "Click the “Remove Credits” button."
+            }
+          ]
+        },
+        {
+          "stepNumber": 8,
+          "stepDescription": "Take a screenshot of the completed removal process for verification",
+          "generatedCode": []
+        }
+      ],
+      "stepsSummary": "Navigate dealer listings and remove credits"
+    },
+    "generatedCodeAt": 1779970415501,
+    "generatedCodeMode": "stagehand"
+  }
+]

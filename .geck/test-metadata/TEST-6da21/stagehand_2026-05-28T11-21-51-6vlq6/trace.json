@@ -1,0 +1,238 @@
+{
+  "testName": "Extract the device name",
+  "testId": "TEST-6da21",
+  "url": "https://kargone-admin.appening.xyz/auth/login",
+  "timestamp": 1779967311987,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open a web browser and navigate to the website using the URL 'https://kargone-admin.appening.xyz/auth/login'.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "No refined instructions - step skipped",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "No instruction",
+              "refinedInstruction": "Step skipped",
+              "executionSuccess": true,
+              "executionDuration": 7,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779967315105,
+              "attemptSummary": "Step skipped due to missing refined instructions.",
+              "screenshotPath": "screenshots/step_1.png",
+              "endTime": 1779967315112
+            }
+          ],
+          "finalStatus": "skipped",
+          "totalDuration": 10,
+          "startTime": 1779967315103,
+          "endTime": 1779967315113
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 1008,
+      "startTime": 1779967314106,
+      "endTime": 1779967315114
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "Click on the 'enquiries' tab.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the \"Enquiries\" link in the Platform section.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the 'Enquiries' link in the Platform section of the main navigation/sidebar. IMPORTANT: Select the primary 'Enquiries' navigation link for the Platform section, not any footer link, secondary menu item, or nested child element.",
+              "executionSuccess": true,
+              "executionDuration": 6390,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779967315134,
+              "attemptSummary": "Stagehand act() replayed successfully",
+              "screenshotPath": "screenshots/step_2_substep_1_attempt_1.png",
+              "endTime": 1779967321524
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 6393,
+          "startTime": 1779967315132,
+          "endTime": 1779967321525
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 6400,
+      "startTime": 1779967315131,
+      "endTime": 1779967321531
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "Enter 'fd' in the seller search field and initiate the search action.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Type `fd` into the seller search field.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Fill the seller search input field on the Kargone Admin enquiries page (Seller tab) with 'fd'. Use the main seller search field, not any other input or filter control on the page.",
+              "executionSuccess": true,
+              "executionDuration": 6283,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779967321555,
+              "attemptSummary": "Stagehand act() replayed successfully",
+              "endTime": 1779967327838
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 6287,
+          "startTime": 1779967321553,
+          "endTime": 1779967327840
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "Click the search field and press Enter to initiate the search.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the search field on the Kargone Admin enquiries page and press Enter to initiate the search. IMPORTANT: Select the main search input field used for filtering enquiries, not any other input or control on the page.",
+              "executionSuccess": true,
+              "executionDuration": 6012,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779967327845,
+              "attemptSummary": "Stagehand act() replayed successfully",
+              "screenshotPath": "screenshots/step_3_substep_2_attempt_1.png",
+              "endTime": 1779967333857
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 6016,
+          "startTime": 1779967327843,
+          "endTime": 1779967333859
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 12310,
+      "startTime": 1779967321551,
+      "endTime": 1779967333861
+    },
+    {
+      "stepNumber": 4,
+      "stepDescription": "Select the view button for the top search result from the enquiry list to open the details popup.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the View button on the top enquiry card.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the 'View' button on the top enquiry card in the main enquiries list. IMPORTANT: Click the primary 'View' action button within the topmost enquiry card, not any other 'View' links or buttons elsewhere on the page.",
+              "executionSuccess": true,
+              "executionDuration": 6804,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779967333884,
+              "attemptSummary": "Stagehand act() replayed successfully",
+              "screenshotPath": "screenshots/step_4_substep_1_attempt_1.png",
+              "endTime": 1779967340688
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 6819,
+          "startTime": 1779967333882,
+          "endTime": 1779967340701
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 6832,
+      "startTime": 1779967333879,
+      "endTime": 1779967340711
+    },
+    {
+      "stepNumber": 5,
+      "stepDescription": "Extract and verify the device name displayed in the popup details.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Fetch the device name shown in the Context section.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Extract the device name shown in the Context section on the current page. IMPORTANT: read the text value displayed in the Context section only, and do not extract labels, surrounding metadata, or values from other sections.",
+              "executionSuccess": true,
+              "executionDuration": 11708,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779967340762,
+              "attemptSummary": "Stagehand act() replayed successfully",
+              "screenshotPath": "screenshots/step_5_substep_1_attempt_1.png",
+              "endTime": 1779967352470
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 11714,
+          "startTime": 1779967340759,
+          "endTime": 1779967352473
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 11723,
+      "startTime": 1779967340755,
+      "endTime": 1779967352478
+    },
+    {
+      "stepNumber": 6,
+      "stepDescription": "Take a screenshot of the popup to ensure the device name has been successfully extracted.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "No refined instructions - step skipped",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "No instruction",
+              "refinedInstruction": "Step skipped",
+              "executionSuccess": true,
+              "executionDuration": 5,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779967352790,
+              "attemptSummary": "Step skipped due to missing refined instructions.",
+              "screenshotPath": "screenshots/step_6.png",
+              "endTime": 1779967352795
+            }
+          ],
+          "finalStatus": "skipped",
+          "totalDuration": 9,
+          "startTime": 1779967352789,
+          "endTime": 1779967352798
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 291,
+      "startTime": 1779967352509,
+      "endTime": 1779967352800
+    }
+  ],
+  "totalDuration": 41501
+}
