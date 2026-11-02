@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. locate the \\\"Add vehicle\\\" button and click it\\n2. after getting the \\\"VIN number\\\" and zip code fields enter a 10 digit random number in VIN and enter 5 digit random number in zip code\\n3. after getting questionnare second options for all the questions and click the submit button.\\n7. after that a dialog mounts, enter \\\"Geman Made\\\" in make, \\\"knight edition\\\" in model, \\\"2020\\\" in year and a 17 digit random number in VIN number and click \\\"verify\\\" button in dialog\\n8. then again click \\\"verify\\\" button in the form to list the car in selling.\\n",
+    "createdAt": 1782154402308,
+    "testname": "Add Vehicle",
+    "projectName": "Seller Portal",
+    "useSavedLoginState": true,
+    "id": "TEST-1e58f",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login"
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Locate the 'Add vehicle' button on the page and click it"
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Enter a 10-digit random number in the VIN number field"
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Enter a 5-digit random number in the zip code field"
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Select the second option for each question in the questionnaire"
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Click the submit button for the questionnaire"
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Wait for the dialog to appear after questionnaire submission"
+        },
+        {
+          "stepNumber": 8,
+          "stepDescription": "In the dialog, enter 'Geman Made' in the make field, 'knight edition' in the model field, and '2020' in the year field"
+        },
+        {
+          "stepNumber": 9,
+          "stepDescription": "Enter a 17-digit random number in the VIN number field within the dialog"
+        },
+        {
+          "stepNumber": 10,
+          "stepDescription": "Click the 'verify' button in the dialog to validate the vehicle details"
+        },
+        {
+          "stepNumber": 11,
+          "stepDescription": "Click the 'verify' button on the main form to list the car for selling"
+        },
+        {
+          "stepNumber": 12,
+          "stepDescription": "Take a screenshot of the completed vehicle listing to confirm success"
+        }
+      ],
+      "generatedAt": 1780318376722,
+      "stepsSummary": "Vehicle listing flow for selling a car"
+    }
+  }
+]

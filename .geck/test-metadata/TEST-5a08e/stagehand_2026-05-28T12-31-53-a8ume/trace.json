@@ -1,0 +1,256 @@
+{
+  "testName": "Reject a Dealer",
+  "testId": "TEST-5a08e",
+  "url": "https://kargone-admin.appening.xyz/auth/login",
+  "timestamp": 1779971513222,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open a web browser and navigate to the website at https://kargone-admin.appening.xyz/auth/login",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate the browser to https://kargone-admin.appening.xyz/auth/login.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Navigate the browser to https://kargone-admin.appening.xyz/auth/login.",
+              "refinedInstruction": "Navigate the browser to https://kargone-admin.appening.xyz/auth/login.",
+              "executionSuccess": true,
+              "executionDuration": 11861,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779971519759,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[2]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779971531620
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 12848,
+          "startTime": 1779971518775,
+          "endTime": 1779971531623
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The browser has already been navigated to the requested login URL.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1779971536368,
+          "endTime": 1779971536369
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 21291,
+      "startTime": 1779971515082,
+      "endTime": 1779971536373
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "Access the Registration Requests menu from the sidebar",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the “Registration Requests” link in the sidebar.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the “Registration Requests” link in the sidebar.",
+              "refinedInstruction": "Click the “Registration Requests” link in the sidebar.",
+              "executionSuccess": true,
+              "executionDuration": 8974,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779971542162,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/aside[1]/nav[1]/div[2]/div[1]/a[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779971551136
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 9993,
+          "startTime": 1779971541145,
+          "endTime": 1779971551138
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Registration Requests menu has already been accessed from the sidebar.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1779971555665,
+          "endTime": 1779971555667
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 18224,
+      "startTime": 1779971537445,
+      "endTime": 1779971555669
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "Locate the first registration request in the list and click the Reject button",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the Reject button on the first registration request card.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the Reject button on the first registration request card.",
+              "refinedInstruction": "Click the Reject button on the first registration request card.",
+              "executionSuccess": true,
+              "executionDuration": 7373,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779971561854,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/button[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779971569227
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 8548,
+          "startTime": 1779971560682,
+          "endTime": 1779971569230
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Reject button on the first registration request card has already been clicked.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1779971573709,
+          "endTime": 1779971573710
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 16967,
+      "startTime": 1779971556745,
+      "endTime": 1779971573712
+    },
+    {
+      "stepNumber": 4,
+      "stepDescription": "In the dialog that appears, enter 'Rejected' in the text area",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Type `Rejected` into the text area labeled for the rejection note.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Type `Rejected` into the text area labeled for the rejection note.",
+              "refinedInstruction": "Type `Rejected` into the text area labeled for the rejection note.",
+              "executionSuccess": true,
+              "executionDuration": 7229,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779971579263,
+              "response": "Action [fill] performed successfully on selector: xpath=/html[1]/body[1]/div[4]/div[2]/textarea[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779971586492
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 8241,
+          "startTime": 1779971578254,
+          "endTime": 1779971586495
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The rejection note has already been entered in the text area.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1779971589901,
+          "endTime": 1779971589903
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 15117,
+      "startTime": 1779971574790,
+      "endTime": 1779971589907
+    },
+    {
+      "stepNumber": 5,
+      "stepDescription": "Click the Reject button in the dialog to confirm the rejection",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the Reject button in the dialog to confirm the rejection",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the Reject button in the dialog to confirm the rejection",
+              "refinedInstruction": "Click the Reject button in the dialog to confirm the rejection",
+              "executionSuccess": true,
+              "executionDuration": 4446,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779971595297,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[4]/div[3]/button[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779971599743
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 5439,
+          "startTime": 1779971594308,
+          "endTime": 1779971599747
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The rejection has already been confirmed and the success message is displayed.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1779971603434,
+          "endTime": 1779971603437
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 12446,
+      "startTime": 1779971590992,
+      "endTime": 1779971603438
+    },
+    {
+      "stepNumber": 6,
+      "stepDescription": "Take a screenshot to capture the completed state of the rejection process",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Take a screenshot of the current page to capture the completed rejection state.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1779971607932
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 3561,
+      "startTime": 1779971604531,
+      "endTime": 1779971608092
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true,
+    "domainType": "custom",
+    "uiLibrary": "none"
+  },
+  "totalDuration": 95903
+}

@@ -1,0 +1,318 @@
+{
+  "testName": "Remove Credits",
+  "testId": "TEST-34e75",
+  "url": "https://kargone-admin.appening.xyz/auth/login",
+  "timestamp": 1779970286595,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate to https://kargone-admin.appening.xyz/auth/login in the browser address bar.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1779970295484
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 7427,
+      "startTime": 1779970288630,
+      "endTime": 1779970296057
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "In the sidebar, click on the 'Dealer Listings' option to see the list of dealers",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the “Dealer Listings” link in the sidebar.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the “Dealer Listings” link in the sidebar.",
+              "refinedInstruction": "Click the “Dealer Listings” link in the sidebar.",
+              "executionSuccess": true,
+              "executionDuration": 12069,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779970303754,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/aside[1]/nav[1]/div[2]/div[1]/a[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779970315823
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 13131,
+          "startTime": 1779970302694,
+          "endTime": 1779970315825
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Dealer Listings page is already open and the dealer list is visible.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1779970320368,
+          "endTime": 1779970320370
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 23236,
+      "startTime": 1779970297136,
+      "endTime": 1779970320372
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "For the first dealer in the list, click the 'view details' button to see detailed information",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the “View details” button on the first dealer card.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the “View details” button on the first dealer card.",
+              "refinedInstruction": "Click the “View details” button on the first dealer card.",
+              "executionSuccess": true,
+              "executionDuration": 8169,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779970325989,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779970334158
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 9269,
+          "startTime": 1779970324892,
+          "endTime": 1779970334161
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The first dealer’s details page is already open and the requested view details action has been completed.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1779970338396,
+          "endTime": 1779970338398
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 16969,
+      "startTime": 1779970321430,
+      "endTime": 1779970338399
+    },
+    {
+      "stepNumber": 4,
+      "stepDescription": "On the dealer details page, click on the 'Credits' tab",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the “Credits” tab.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the “Credits” tab.",
+              "refinedInstruction": "Click the “Credits” tab.",
+              "executionSuccess": true,
+              "executionDuration": 7508,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779970344476,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/button[5]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779970351984
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 8642,
+          "startTime": 1779970343345,
+          "endTime": 1779970351987
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Credits tab has already been clicked.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 4,
+          "startTime": 1779970355822,
+          "endTime": 1779970355826
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 16365,
+      "startTime": 1779970339462,
+      "endTime": 1779970355827
+    },
+    {
+      "stepNumber": 5,
+      "stepDescription": "Locate the 'Remove Credits' button within the Credits tab",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the “Remove Credits” button.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the “Remove Credits” button.",
+              "refinedInstruction": "Click the “Remove Credits” button.",
+              "executionSuccess": true,
+              "executionDuration": 7251,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779970362059,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/button[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779970369310
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 8430,
+          "startTime": 1779970360883,
+          "endTime": 1779970369313
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Remove Credits button has already been clicked.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1779970373101,
+          "endTime": 1779970373104
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 16229,
+      "startTime": 1779970356878,
+      "endTime": 1779970373107
+    },
+    {
+      "stepNumber": 6,
+      "stepDescription": "When the Remove Credits dialog opens, enter 50 into the Deby Amount input field",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Fill the input labeled “Debit Amount” with 50.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Fill the input labeled “Debit Amount” with 50.",
+              "refinedInstruction": "Fill the input labeled “Debit Amount” with 50.",
+              "executionSuccess": true,
+              "executionDuration": 7382,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779970378833,
+              "response": "Action [fill] performed successfully on selector: xpath=/html[1]/body[1]/div[4]/div[2]/div[1]/div[1]/input[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779970386215
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 8387,
+          "startTime": 1779970377829,
+          "endTime": 1779970386216
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Debit Amount field has already been filled with 50.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1779970391983,
+          "endTime": 1779970391985
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 17811,
+      "startTime": 1779970374175,
+      "endTime": 1779970391986
+    },
+    {
+      "stepNumber": 7,
+      "stepDescription": "Submit the Remove Credits dialog to complete the removal process",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the “Remove Credits” button.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the “Remove Credits” button.",
+              "refinedInstruction": "Click the “Remove Credits” button.",
+              "executionSuccess": true,
+              "executionDuration": 7503,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779970397736,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[4]/div[2]/div[2]/button[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779970405239
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 8561,
+          "startTime": 1779970396679,
+          "endTime": 1779970405240
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Remove Credits dialog has already been submitted and the credit removal success toast is visible.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1779970409012,
+          "endTime": 1779970409013
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 15925,
+      "startTime": 1779970393089,
+      "endTime": 1779970409014
+    },
+    {
+      "stepNumber": 8,
+      "stepDescription": "Take a screenshot of the completed removal process for verification",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Take a screenshot of the page to verify the completed removal process.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1779970413874
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 3938,
+      "startTime": 1779970410095,
+      "endTime": 1779970414033
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true,
+    "domainType": "custom",
+    "uiLibrary": "none"
+  },
+  "totalDuration": 128469
+}

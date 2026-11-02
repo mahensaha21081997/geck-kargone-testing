@@ -1,0 +1,250 @@
+{
+  "testName": "Disable Seller",
+  "testId": "TEST-d6b34",
+  "url": "https://kargone-admin.appening.xyz/auth/login",
+  "timestamp": 1780383942882,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open a web browser and navigate to the website at https://kargone-admin.appening.xyz/auth/login",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate to https://kargone-admin.appening.xyz/auth/login in the browser address bar.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1780383948492
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 4492,
+      "startTime": 1780383944635,
+      "endTime": 1780383949127
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "Locate the car listings page displaying seller cards.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "SKIP: The car listings page with seller cards is already displayed.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1780383953706,
+          "endTime": 1780383953708
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 3666,
+      "startTime": 1780383950202,
+      "endTime": 1780383953868
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "Identify the first car/seller card on the page. Click the disable/enable button present on the first car/seller card.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the disable/enable button on the first car/seller card.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the disable/enable button on the first car/seller card.",
+              "refinedInstruction": "Click the disable/enable button on the first car/seller card.",
+              "executionSuccess": true,
+              "executionDuration": 5682,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780383959234,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[3]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780383964916
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 6711,
+          "startTime": 1780383958207,
+          "endTime": 1780383964918
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The disable/enable button on the first car/seller card has already been clicked.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1780383968861,
+          "endTime": 1780383968864
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 13900,
+      "startTime": 1780383954965,
+      "endTime": 1780383968865
+    },
+    {
+      "stepNumber": 4,
+      "stepDescription": "Wait for the confirmation dialog to appear after clicking the initial button.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Wait for the confirmation dialog titled \"Disable seller?\" to appear.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "extract",
+              "instruction": "Wait for the confirmation dialog titled \"Disable seller?\" to appear.",
+              "refinedInstruction": "Wait for the confirmation dialog titled \"Disable seller?\" to appear.",
+              "executionSuccess": true,
+              "executionDuration": 13414,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780383973692,
+              "response": "Extracted: {\"extraction\":\"[0-1488] dialog: Disable seller?\\n  [0-1484] div\\n    [0-1478] heading: Disable seller?\\n      [0-1493] StaticText: Disable\\n      [0-1494] StaticText: \\n      [0-1495] StaticText: seller\\n      [0-1496] StaticText: ?\\n    [0-1479] paragraph\\n      [0-1497] StaticText: Are you sure you want to\\n      [0-1498] StaticText: disable\\n      [0-1499] StaticText: \\n      [0-1500] StaticText: Seller\\n      [0-1501] StaticText: ?\\n      [0-1502] StaticText: This will suspend their seller account and revoke platform access.\\n  [0-1485] div\\n    [0-1480] button: Cancel\\n    [0-1481] button: Disable\\n  [0-1486] button: Cross Red Close Red\\n    [0-1482] image: Cross Red\\n    [0-1505] StaticText: Close Red\"}",
+              "attemptSummary": "Stagehand extract() executed successfully",
+              "endTime": 1780383987106
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 13977,
+          "startTime": 1780383973131,
+          "endTime": 1780383987108
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The confirmation dialog titled \"Disable seller?\" is already visible.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1780383990797,
+          "endTime": 1780383990800
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 20831,
+      "startTime": 1780383969972,
+      "endTime": 1780383990803
+    },
+    {
+      "stepNumber": 5,
+      "stepDescription": "Within the confirmation dialog, click the 'disable' or 'enable' button to confirm the seller status change.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the Disable button in the confirmation dialog.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the Disable button in the confirmation dialog.",
+              "refinedInstruction": "Click the Disable button in the confirmation dialog.",
+              "executionSuccess": true,
+              "executionDuration": 3987,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780383996338,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[4]/div[2]/button[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1780384000325
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 5010,
+          "startTime": 1780383995318,
+          "endTime": 1780384000328
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The disable confirmation button has already been clicked and the seller status change is complete.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 4,
+          "startTime": 1780384006807,
+          "endTime": 1780384006811
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 14944,
+      "startTime": 1780383991870,
+      "endTime": 1780384006814
+    },
+    {
+      "stepNumber": 6,
+      "stepDescription": "Verify that the seller's status has been updated as expected on the car listings page",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Verify that the first car card now shows the updated seller status.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "extract",
+              "instruction": "Verify that the first car card now shows the updated seller status.",
+              "refinedInstruction": "Verify that the first car card now shows the updated seller status.",
+              "executionSuccess": true,
+              "executionDuration": 3450,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1780384011985,
+              "response": "Extracted: {\"extraction\":\"Status :\\nActive\"}",
+              "attemptSummary": "Stagehand extract() executed successfully",
+              "endTime": 1780384015435
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 4000,
+          "startTime": 1780384011437,
+          "endTime": 1780384015437
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The seller status verification has already been completed and the first car card shows the updated status.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1780384019150,
+          "endTime": 1780384019152
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 11225,
+      "startTime": 1780384007932,
+      "endTime": 1780384019157
+    },
+    {
+      "stepNumber": 7,
+      "stepDescription": "Take a screenshot of the final updated seller state to complete the test",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "SKIP: The final updated seller state has already been verified.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 4,
+          "startTime": 1780384023734,
+          "endTime": 1780384023738
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 3766,
+      "startTime": 1780384020280,
+      "endTime": 1780384024046
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true,
+    "domainType": "custom",
+    "uiLibrary": "none"
+  },
+  "totalDuration": 82202
+}

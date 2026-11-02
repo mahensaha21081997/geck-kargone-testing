@@ -1,0 +1,99 @@
+{
+  "testName": "Approve a Dealer",
+  "testId": "TEST-7abbb",
+  "url": "https://kargone-admin.appening.xyz/auth/login",
+  "timestamp": 1779971458270,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate to https://kargone-admin.appening.xyz/auth/login in the browser address bar.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1779971463636
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 4011,
+      "startTime": 1779971460249,
+      "endTime": 1779971464260
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "In the sidebar, locate and select the 'Registration requests' menu item",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the \"Registration Requests\" link in the Dealer Management section of the sidebar.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "Click the \"Registration Requests\" link in the Dealer Management section of the sidebar.",
+              "refinedInstruction": "Click the \"Registration Requests\" link in the Dealer Management section of the sidebar.",
+              "executionSuccess": true,
+              "executionDuration": 13416,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779971471167,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/aside[1]/nav[1]/div[2]/div[1]/a[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779971484583
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 15527,
+          "startTime": 1779971469061,
+          "endTime": 1779971484588
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Registration Requests menu item has already been selected.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1779971488217,
+          "endTime": 1779971488220
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 22870,
+      "startTime": 1779971465352,
+      "endTime": 1779971488222
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "In the list of requested dealers, identify the first entry and click the 'view docs' option",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "FAILURE: The Registration Requests list is empty, so there is no first entry or \"view docs\" option to click.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 3,
+          "startTime": 1779971493265,
+          "endTime": 1779971493268
+        }
+      ],
+      "stepStatus": "fail",
+      "duration": 4120,
+      "startTime": 1779971489306,
+      "endTime": 1779971493426
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true,
+    "domainType": "custom",
+    "uiLibrary": "none"
+  },
+  "totalDuration": 35160
+}

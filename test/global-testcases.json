@@ -1,0 +1,150 @@
+[
+  {
+    "id": "global-login-test-case",
+    "projectName": "Global",
+    "testname": "Global Login",
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "we have the email and password fields to fill and a Login button to click.\n1. Enter email - kargone-admin@yopmail.com\n2. Enter Password - \"secret\"\n3. click the Login button.",
+    "createdAt": 1780385105755,
+    "isGlobal": true,
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open the login page by navigating to https://kargone-admin.appening.xyz/auth/login in your browser",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Enter the email address 'kargone-admin@yopmail.com' in the email input field",
+          "generatedCode": [
+            {
+              "subStep": "Fill the email input field with `kargone-admin@yopmail.com`.",
+              "code": "Fill the email input field with `kargone-admin@yopmail.com`."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Enter the password 'secret' in the password input field",
+          "generatedCode": [
+            {
+              "subStep": "Fill the password input field with `secret`.",
+              "code": "Fill the password input field with `secret`."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Click the Login button to initiate the authentication process",
+          "generatedCode": [
+            {
+              "subStep": "Click the Login button.",
+              "code": "Click the Login button."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Verify that the user is successfully logged in by checking for a post-login element or URL change",
+          "generatedCode": [
+            {
+              "subStep": "Verify that a protected post-login element such as the Car Listings heading is visible.",
+              "code": "Verify that a protected post-login element such as the Car Listings heading is visible."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Take a screenshot of the logged-in dashboard to confirm successful login",
+          "generatedCode": []
+        }
+      ],
+      "stepsSummary": "Perform login with valid credentials"
+    },
+    "useSavedLoginState": false,
+    "generatedCodeAt": 1782154174336,
+    "generatedCodeMode": "stagehand"
+  },
+  {
+    "id": "global-dealer-login-test-case",
+    "projectName": "Global",
+    "testname": "Dealer Global Login",
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. click the Login button in the navbar \n2 locate the login form and then in the email field enter \"billy@yopmail.com\"\n3. and in password field enter - \"Billy@123\"\n4. click submit button and track the successful login.",
+    "createdAt": 1780377438739,
+    "isGlobal": true,
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login.",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Locate and click the Login button in the navigation bar.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Login button in the navigation bar.",
+              "code": "Click the Login button in the navigation bar."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Identify the login form that appears and enter the email address billy@yopmail.com in the email field.",
+          "generatedCode": [
+            {
+              "subStep": "Fill the email input with billy@yopmail.com.",
+              "code": "Fill the email input with billy@yopmail.com."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Enter the password Billy@123 in the password field of the login form.",
+          "generatedCode": [
+            {
+              "subStep": "Fill the password input with Billy@123.",
+              "code": "Fill the password input with Billy@123."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Click the Submit button to complete the login process.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Login button.",
+              "code": "Click the Login button."
+            },
+            {
+              "subStep": "Click the Submit button.",
+              "code": "Click the Submit button."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Track the successful login by verifying the dealer dashboard or authenticated page elements are visible.",
+          "generatedCode": [
+            {
+              "subStep": "Verify that the dashboard heading and authenticated dealer page elements are visible.",
+              "code": "Verify that the dashboard heading and authenticated dealer page elements are visible."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Take a screenshot of the completed dealer page as proof of successful login.",
+          "generatedCode": []
+        }
+      ],
+      "stepsSummary": "Login and verify dealer page"
+    },
+    "useSavedLoginState": false,
+    "generatedCodeAt": 1780484078725,
+    "generatedCodeMode": "stagehand"
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. in the sidebar go to \\\"Registration requests\\\" menu item\\n2. in the list of requested dealers for the first one click the \\\"view docs\\\"\\n3. in the view docs dialog footer click the Approve button\\n4. in the confirmation dialog enter \\\"Approved\\\" and click \\\"verify document\\\" button",
+    "createdAt": 1779971197983,
+    "testname": "Approve a Dealer",
+    "projectName": "Registration Requests",
+    "useSavedLoginState": true,
+    "id": "TEST-7abbb",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "In the sidebar, locate and select the 'Registration requests' menu item",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Registration Requests” menu item in the Dealer Management section.",
+              "code": "Click the “Registration Requests” menu item in the Dealer Management section."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "In the list of requested dealers, identify the first entry and click the 'view docs' option",
+          "generatedCode": [
+            {
+              "subStep": "Click the “View Docs” button for the first registration request entry.",
+              "code": "Click the “View Docs” button for the first registration request entry."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "In the view docs dialog, find the footer section and click on the 'Approve' button",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Approve” button in the footer section of the View Docs dialog.",
+              "code": "Click the “Approve” button in the footer section of the View Docs dialog."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "In the confirmation dialog, type 'Approved' in the designated field and then click the 'verify document' button",
+          "generatedCode": [
+            {
+              "subStep": "Type \"Approved\" into the confirmation dialog text area.",
+              "code": "Type \"Approved\" into the confirmation dialog text area."
+            },
+            {
+              "subStep": "Click the “Verify document” button.",
+              "code": "Click the “Verify document” button."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Capture a screenshot of the completed approval process for verification",
+          "generatedCode": []
+        }
+      ],
+      "stepsSummary": "Approve dealer registration document"
+    },
+    "generatedCodeAt": 1779971034019,
+    "generatedCodeMode": "stagehand"
+  },
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. in the sidebar menu go to Registration Requests menu\n2. in the list items for the first one click \"Reject\" button\n3. in the opened dialog enter \"Rejected\" in the textarea\n4. click the \"Reject\" button",
+    "createdAt": 1779877212977,
+    "testname": "Reject a Dealer",
+    "projectName": "Registration Requests",
+    "useSavedLoginState": true,
+    "id": "TEST-5a08e",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to the website at https://kargone-admin.appening.xyz/auth/login",
+          "generatedCode": [
+            {
+              "subStep": "Navigate the browser to https://kargone-admin.appening.xyz/auth/login.",
+              "code": "Navigate the browser to https://kargone-admin.appening.xyz/auth/login."
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Access the Registration Requests menu from the sidebar",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Registration Requests” link in the sidebar.",
+              "code": "Click the “Registration Requests” link in the sidebar."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Locate the first registration request in the list and click the Reject button",
+          "generatedCode": [
+            {
+              "subStep": "Click the Reject button on the first registration request card.",
+              "code": "Click the Reject button on the first registration request card."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "In the dialog that appears, enter 'Rejected' in the text area",
+          "generatedCode": [
+            {
+              "subStep": "Type `Rejected` into the text area labeled for the rejection note.",
+              "code": "Type `Rejected` into the text area labeled for the rejection note."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Click the Reject button in the dialog to confirm the rejection",
+          "generatedCode": [
+            {
+              "subStep": "Click the Reject button in the dialog to confirm the rejection",
+              "code": "Click the Reject button in the dialog to confirm the rejection"
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Take a screenshot to capture the completed state of the rejection process",
+          "generatedCode": []
+        }
+      ],
+      "generatedAt": 1779877212979,
+      "stepsSummary": "Navigate registration and submit rejection"
+    },
+    "generatedCodeAt": 1779971609562,
+    "generatedCodeMode": "stagehand"
+  }
+]

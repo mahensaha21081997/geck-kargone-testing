@@ -1,0 +1,333 @@
+[
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. check if the car listings page is rendered\\n2. click on the \\\"seller info\\\" widget of the first car\\n3. extract the info",
+    "createdAt": 1779874853047,
+    "testname": "Check Each Car widgets working",
+    "projectName": "Car Listings",
+    "useSavedLoginState": true,
+    "id": "TEST-e2281",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to the website",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Verify that the car listings page is rendered by checking that the expected listings are visible.",
+          "generatedCode": [
+            {
+              "subStep": "Verify that at least one car listing card is visible on the page.",
+              "code": "Verify that at least one car listing card is visible on the page."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Click on the seller info widget for the first car in the listings to view seller details.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Seller info button on the first car listing card.",
+              "code": "Click the Seller info button on the first car listing card."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Extract and note down the seller information displayed from the widget.",
+          "generatedCode": [
+            {
+              "subStep": "FETCH: the seller information displayed in the Seller details widget, including the seller name, phone number, location, and email address",
+              "code": "FETCH: the seller information displayed in the Seller details widget, including the seller name, phone number, location, and email address"
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Take a screenshot of the page to capture and confirm the completed task",
+          "generatedCode": []
+        }
+      ],
+      "generatedAt": 1779874853053,
+      "stepsSummary": "Verify car listings and extract seller info"
+    },
+    "generatedCodeAt": 1780383477575,
+    "generatedCodeMode": "stagehand"
+  },
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. in car listings page for each car we have a button to disable/enable a seller\\n2. click the first car/seller card's disable/enable button\\n3. then a dialog pops up and again click \\\"disable\\\"/\\\"enable\\\" button to disable/enable the seller",
+    "createdAt": 1779875025739,
+    "testname": "Disable Seller",
+    "projectName": "Car Listings",
+    "useSavedLoginState": true,
+    "id": "TEST-d6b34",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to the website at https://kargone-admin.appening.xyz/auth/login",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Locate the car listings page displaying seller cards.",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Identify the first car/seller card on the page. Click the disable/enable button present on the first car/seller card.",
+          "generatedCode": [
+            {
+              "subStep": "Click the disable/enable button on the first car/seller card.",
+              "code": "Click the disable/enable button on the first car/seller card."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Wait for the confirmation dialog to appear after clicking the initial button.",
+          "generatedCode": [
+            {
+              "subStep": "Wait for the confirmation dialog titled \"Disable seller?\" to appear.",
+              "code": "Wait for the confirmation dialog titled \"Disable seller?\" to appear."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Within the confirmation dialog, click the 'disable' or 'enable' button to confirm the seller status change.",
+          "generatedCode": [
+            {
+              "subStep": "Click the Disable button in the confirmation dialog.",
+              "code": "Click the Disable button in the confirmation dialog."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Verify that the seller's status has been updated as expected on the car listings page",
+          "generatedCode": [
+            {
+              "subStep": "Verify that the first car card now shows the updated seller status.",
+              "code": "Verify that the first car card now shows the updated seller status."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Take a screenshot of the final updated seller state to complete the test",
+          "generatedCode": []
+        }
+      ],
+      "generatedAt": 1779875025742,
+      "stepsSummary": "Disable/enable seller on car listings"
+    },
+    "generatedCodeAt": 1780384025621,
+    "generatedCodeMode": "stagehand"
+  },
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. in the car listings page go for the first car card and click the Add Notes widget button\\n2. a dialog mounts with image upload and a textarea\\n3. so now upload an image from the device and write the \\\"{car name} reviewed by @\\\" and then select the first admin in the dropdown and submit the form.\\n4. then go to car info widget button for the same car and in that page go to Notes tab and check if the created notes exist.",
+    "createdAt": 1779875128021,
+    "testname": "Add Notes",
+    "projectName": "Car Listings",
+    "useSavedLoginState": true,
+    "id": "TEST-012f2",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to the website at https://kargone-admin.appening.xyz/auth/login",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "On the car listings page, locate the first car card and click the Add Notes widget button on that card",
+          "generatedCode": [
+            {
+              "subStep": "Click the Add Notes button on the first car card.",
+              "code": "Click the Add Notes button on the first car card."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Wait for the dialog to appear that contains an image upload field and a textarea for notes",
+          "generatedCode": [
+            {
+              "subStep": "Wait for the dialog containing the image upload field and notes textarea to be visible.",
+              "code": "Wait for the dialog containing the image upload field and notes textarea to be visible."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "in the textarea, enter the text '[car name] reviewed by @'",
+          "generatedCode": [
+            {
+              "subStep": "Click into the textarea with placeholder \"Add your notes here\" and type \"[car name] reviewed by @\".",
+              "code": "Click into the textarea with placeholder \"Add your notes here\" and type \"[car name] reviewed by @\"."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "after entering \"@\" a list of admins dropdown comes and then Select the first admin option from the dropdown provided in the dropdown",
+          "generatedCode": [
+            {
+              "subStep": "Click the first admin option in the dropdown.",
+              "code": "Click the first admin option in the dropdown."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Submit the form in the dialog to add the note",
+          "generatedCode": [
+            {
+              "subStep": "Click the Submit button in the Add Notes dialog.",
+              "code": "Click the Submit button in the Add Notes dialog."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Locate the car info widget button on the same car card and click it to navigate to the car details page",
+          "generatedCode": [
+            {
+              "subStep": "Click the Car info button on the first car card.",
+              "code": "Click the Car info button on the first car card."
+            }
+          ]
+        },
+        {
+          "stepNumber": 8,
+          "stepDescription": "In the car details page, switch to the Notes tab to view all notes related to the car",
+          "generatedCode": [
+            {
+              "subStep": "Click the Notes tab.",
+              "code": "Click the Notes tab."
+            }
+          ]
+        },
+        {
+          "stepNumber": 9,
+          "stepDescription": "Verify that the note you created appears in the Notes tab",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 10,
+          "stepDescription": "Take a screenshot of the completed task to confirm the note is visible and the process was successful",
+          "generatedCode": []
+        }
+      ],
+      "stepsSummary": "Add note and verify in car info tab"
+    },
+    "generatedCodeAt": 1780384527760,
+    "generatedCodeMode": "stagehand"
+  },
+  {
+    "url": "https://kargone-admin.appening.xyz/auth/login",
+    "description": "1. in the car listings page in the listings header we have a sort by row for sorting by date added or search\n2. in the filters we have a feature to search by vin\n3. so in car listings page search car by vin \"12322332334321234\" and check the response and take a screen shot\n4. and in temp cars page search for car by vin \"1ZTG6CEN0L1139305\" and after getting the response take a screen shot.",
+    "createdAt": 1779707804342,
+    "testname": "Search a Car in Car Listings and Temp cars pages",
+    "projectName": "Car Listings",
+    "useSavedLoginState": true,
+    "id": "TEST-2a182",
+    "generatedSteps": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "stepDescription": "Open a web browser and navigate to https://kargone-admin.appening.xyz/auth/login.",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 2,
+          "stepDescription": "Ensure the car listings page loads and the listings header displays a sort by row for sorting by date added or search.",
+          "generatedCode": [
+            {
+              "subStep": "Verify that the listings header shows the sort by row and the search field is visible.",
+              "code": "Verify that the listings header shows the sort by row and the search field is visible."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "stepDescription": "Locate the VIN search filter within the car listings page filters.",
+          "generatedCode": [
+            {
+              "subStep": "Click the input with the placeholder \"Search by VIN\".",
+              "code": "Click the input with the placeholder \"Search by VIN\"."
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "stepDescription": "Enter the VIN '12322332334321234' into the VIN search filter on the car listings page.",
+          "generatedCode": [
+            {
+              "subStep": "Type `12322332334321234` into the VIN search input.",
+              "code": "Type `12322332334321234` into the VIN search input."
+            }
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "stepDescription": "Initiate the search action for the entered VIN on the car listings page.",
+          "generatedCode": [
+            {
+              "subStep": "Click the search button to initiate the VIN search.",
+              "code": "Click the search button to initiate the VIN search."
+            }
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "stepDescription": "Verify that the search results display listings corresponding to VIN '12322332334321234'.",
+          "generatedCode": [
+            {
+              "subStep": "Verify that the visible listing card includes the VIN `12322332334321234`.",
+              "code": "Verify that the visible listing card includes the VIN `12322332334321234`."
+            }
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "stepDescription": "Capture a screenshot of the car listings search results.",
+          "generatedCode": []
+        },
+        {
+          "stepNumber": 8,
+          "stepDescription": "Navigate to the Temp Cars page using the site's navigation or by entering the appropriate URL.",
+          "generatedCode": [
+            {
+              "subStep": "Click the “Temp Cars” link in the Seller Management navigation.",
+              "code": "Click the “Temp Cars” link in the Seller Management navigation."
+            }
+          ]
+        },
+        {
+          "stepNumber": 9,
+          "stepDescription": "Enter the VIN '1ZTG6CEN0L1139305' into the VIN search filter on the Temp Cars page.",
+          "generatedCode": [
+            {
+              "subStep": "Click the input with the placeholder \"Search by VIN\" and replace its current value with `1ZTG6CEN0L1139305`.",
+              "code": "Click the input with the placeholder \"Search by VIN\" and replace its current value with `1ZTG6CEN0L1139305`."
+            }
+          ]
+        },
+        {
+          "stepNumber": 10,
+          "stepDescription": "Capture a screenshot of the Temp Cars search results.",
+          "generatedCode": []
+        }
+      ],
+      "stepsSummary": "Search car listings and temp cars by VIN"
+    },
+    "generatedCodeAt": 1780384679304,
+    "generatedCodeMode": "stagehand"
+  }
+]

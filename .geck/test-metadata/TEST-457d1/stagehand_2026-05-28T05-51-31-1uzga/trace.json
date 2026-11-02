@@ -1,0 +1,456 @@
+{
+  "testName": "Enquiries select date filter",
+  "testId": "TEST-457d1",
+  "url": "https://kargone-admin.appening.xyz/auth/login",
+  "timestamp": 1779947491095,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "stepDescription": "Open a web browser and navigate to the website using the provided URL.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Navigate to the provided website URL in the browser address bar.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1779947499949
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 7563,
+      "startTime": 1779947492962,
+      "endTime": 1779947500525
+    },
+    {
+      "stepNumber": 2,
+      "stepDescription": "Select the 'enquiries' tab from the sidebar menu to view enquiry records.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the \"Enquiries\" link in the sidebar menu.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "click the Enquiries link in the sidebar menu",
+              "refinedInstruction": "Click the Enquiries link in the main sidebar navigation menu on the Kargone Admin page. IMPORTANT: Select the primary sidebar menu item labeled 'Enquiries', not any similar link in the main content area, header, or footer.",
+              "executionSuccess": true,
+              "executionDuration": 10178,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779947509573,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[3]/aside[1]/nav[1]/div[3]/div[1]/a[3]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779947519751
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 13376,
+          "startTime": 1779947506376,
+          "endTime": 1779947519752
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The Enquiries page is already open and the sidebar Enquiries link has been clicked.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1779947524025,
+          "endTime": 1779947524027
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 22431,
+      "startTime": 1779947501598,
+      "endTime": 1779947524029
+    },
+    {
+      "stepNumber": 3,
+      "stepDescription": "Click on the date range selection element to open the calendar picker.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the \"Select Date Range\" button to open the calendar picker.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "click the \"Select Date Range\" button",
+              "refinedInstruction": "Click the 'Select Date Range' button on the page. IMPORTANT: Click the main date range selection button used to open the date picker or filter control, not any similarly labeled text, dropdown item, or nested element inside another control.",
+              "executionSuccess": true,
+              "executionDuration": 7615,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779947532176,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779947539791
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 11028,
+          "startTime": 1779947528765,
+          "endTime": 1779947539793
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The date range selection element has already been clicked and the calendar picker is open.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1779947545333,
+          "endTime": 1779947545335
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 20213,
+      "startTime": 1779947525123,
+      "endTime": 1779947545336
+    },
+    {
+      "stepNumber": 4,
+      "stepDescription": "Select the start date as 1st April from the calendar.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the day button labeled “Wednesday, April 1st, 2026” in the calendar.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "click the day button labeled \"Wednesday, April 1st, 2026\" in the calendar",
+              "refinedInstruction": "Click the day button labeled \"Wednesday, April 1st, 2026\" in the calendar. IMPORTANT: Select the date button itself in the calendar grid, not any surrounding navigation controls, month/year selectors, or other calendar elements.",
+              "executionSuccess": true,
+              "executionDuration": 7713,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779947552999,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[4]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779947560712
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 10926,
+          "startTime": 1779947549790,
+          "endTime": 1779947560716
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The start date has already been selected by clicking April 1st, 2026.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 3,
+          "startTime": 1779947564751,
+          "endTime": 1779947564754
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 18325,
+      "startTime": 1779947546431,
+      "endTime": 1779947564756
+    },
+    {
+      "stepNumber": 5,
+      "stepDescription": "Select the end date as 27th May from the calendar.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the day button labeled “Wednesday, May 27th, 2026” in the calendar.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "click the day button labeled \"Wednesday, May 27th, 2026\" in the calendar",
+              "refinedInstruction": "Click the day button labeled \"Wednesday, May 27th, 2026\" in the calendar. IMPORTANT: Select the calendar day button itself, not any surrounding date picker controls, month navigation arrows, or other calendar elements.",
+              "executionSuccess": true,
+              "executionDuration": 11138,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779947572882,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[4]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779947584020
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 14520,
+          "startTime": 1779947569502,
+          "endTime": 1779947584022
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The end date has already been selected as Wednesday, May 27th, 2026.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1779947588197,
+          "endTime": 1779947588199
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 22370,
+      "startTime": 1779947565830,
+      "endTime": 1779947588200
+    },
+    {
+      "stepNumber": 6,
+      "stepDescription": "Click on the 'done' button to confirm the selected date range.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the “Done” button to confirm the selected date range.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "click the Done button",
+              "refinedInstruction": "Click the 'Done' button on the Kargone Admin enquiries page. IMPORTANT: Click the primary action button labeled 'Done' in the main content area, not any similarly named link, menu item, or secondary control.",
+              "executionSuccess": true,
+              "executionDuration": 7197,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779947596520,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[3]/div[1]/div[2]/div[1]/button[2]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779947603717
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 10940,
+          "startTime": 1779947592778,
+          "endTime": 1779947603718
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The done button has already been clicked to confirm the selected date range.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1779947608562,
+          "endTime": 1779947608564
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 19294,
+      "startTime": 1779947589272,
+      "endTime": 1779947608566
+    },
+    {
+      "stepNumber": 7,
+      "stepDescription": "Open the sort dropdown and choose the 'oldest first' option to reorder the list.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the “Sort by” dropdown button.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "click the \"Sort by\" dropdown button",
+              "refinedInstruction": "Click the 'Sort by' dropdown button on the page. IMPORTANT: Click the main sorting control for the enquiries list, not any other dropdowns, filters, or menu buttons in the header or sidebar.",
+              "executionSuccess": true,
+              "executionDuration": 11637,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779947617478,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1] → Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[3]/div[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779947629115
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 14590,
+          "startTime": 1779947614526,
+          "endTime": 1779947629116
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "Click the “Oldest First” menu item.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "click the \"Oldest First\" menu item",
+              "refinedInstruction": "Click the 'Oldest First' menu item in the sorting/filter menu on the enquiries page. IMPORTANT: Select the actual menu option labeled 'Oldest First', not a nearby tab, button, or any other sorting control.",
+              "executionSuccess": true,
+              "executionDuration": 16896,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779947635654,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[3]/div[1]/div[2] → Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779947652550
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 19907,
+          "startTime": 1779947632645,
+          "endTime": 1779947652552
+        },
+        {
+          "subStepNumber": 3,
+          "subStepDescription": "SKIP: The sort dropdown has already been opened and the “Oldest First” option has already been selected.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1779947656387,
+          "endTime": 1779947656388
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 46764,
+      "startTime": 1779947609625,
+      "endTime": 1779947656389
+    },
+    {
+      "stepNumber": 8,
+      "stepDescription": "Identify the top card in the enquiries list and click its view button to display details.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the top enquiry card’s View button to open its details.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "click the top enquiry card's View button to open its details",
+              "refinedInstruction": "Click the View button on the top enquiry card to open that enquiry's details. IMPORTANT: Click the View action button within the main/top enquiry card, not any other View link or button elsewhere on the page.",
+              "executionSuccess": true,
+              "executionDuration": 7227,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779947664602,
+              "response": "Action [click] performed successfully on selector: xpath=/",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779947671829
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 10712,
+          "startTime": 1779947661119,
+          "endTime": 1779947671831
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "SKIP: The top enquiry card’s View button has already been clicked and its details should now be open.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 1,
+          "startTime": 1779947676023,
+          "endTime": 1779947676024
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 18558,
+      "startTime": 1779947657468,
+      "endTime": 1779947676026
+    },
+    {
+      "stepNumber": 9,
+      "stepDescription": "Extract and verify the device name from the detailed view of the enquiry.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Click the View button for the top enquiry card to open its detailed view.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "act",
+              "instruction": "click the View button for the top enquiry card",
+              "refinedInstruction": "Click the View button on the top enquiry card in the main content area. IMPORTANT: Click the primary View action for the first/top enquiry card, not any View button in other cards, side panels, or nested elements.",
+              "executionSuccess": true,
+              "executionDuration": 7060,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779947684560,
+              "response": "Action [click] performed successfully on selector: xpath=/html[1]/body[1]/div[2]/main[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+              "attemptSummary": "Stagehand act() executed successfully",
+              "endTime": 1779947691620
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 10425,
+          "startTime": 1779947681196,
+          "endTime": 1779947691621
+        },
+        {
+          "subStepNumber": 2,
+          "subStepDescription": "Fetch the device name value from the Context section.",
+          "attempts": [
+            {
+              "attemptNumber": 1,
+              "method": "extract",
+              "instruction": "extract the device name value from the Context section",
+              "refinedInstruction": "Extract the device name value from the Context section on the current page. IMPORTANT: Read the value shown in the main Context details area, not any similarly labeled text in navigation, filters, tables, or nested child elements.",
+              "executionSuccess": true,
+              "executionDuration": 2366,
+              "validation": {
+                "performed": false
+              },
+              "startTime": 1779947698360,
+              "response": "Extracted: {\"extraction\":\"—\"}",
+              "attemptSummary": "Stagehand extract() executed successfully",
+              "endTime": 1779947700726
+            }
+          ],
+          "finalStatus": "pass",
+          "totalDuration": 5528,
+          "startTime": 1779947695199,
+          "endTime": 1779947700727
+        },
+        {
+          "subStepNumber": 3,
+          "subStepDescription": "SKIP: The device name has already been fetched and verified as “—”.",
+          "attempts": [],
+          "finalStatus": "skipped",
+          "totalDuration": 2,
+          "startTime": 1779947704938,
+          "endTime": 1779947704940
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 27843,
+      "startTime": 1779947677099,
+      "endTime": 1779947704942
+    },
+    {
+      "stepNumber": 10,
+      "stepDescription": "Take a screenshot of the final page to confirm the successful completion of the test steps.",
+      "subSteps": [
+        {
+          "subStepNumber": 1,
+          "subStepDescription": "Take a screenshot of the current page.",
+          "attempts": [],
+          "finalStatus": "fail",
+          "totalDuration": 0,
+          "startTime": 1779947709940
+        }
+      ],
+      "stepStatus": "pass",
+      "duration": 4125,
+      "startTime": 1779947705995,
+      "endTime": 1779947710120
+    }
+  ],
+  "frameworkContext": {
+    "cssFramework": "auto",
+    "applicationContext": "",
+    "technicalNotes": "",
+    "prd": "",
+    "enableOptimizations": true,
+    "domainType": "custom",
+    "uiLibrary": "none"
+  },
+  "totalDuration": 220064
+}
